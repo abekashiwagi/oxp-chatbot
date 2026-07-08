@@ -1,9 +1,5 @@
 /**
- * LeasingAI Chat Widget — matches leasing-ai-ui production design.
- *
- * White header, "Leasing Agent" title, health dot, new-conversation
- * button, avatar bubbles, "Powered by Entrata" footer. No welcome
- * message, no quick replies — prospect types first.
+ * LeasingAI Chat Widget — single-screen conversational UI.
  */
 (function () {
   'use strict';
@@ -13,6 +9,8 @@
   var STORAGE_KEY = 'leasingai_conversation';
   var MIN_TYPING_MS = 500;
   var HEALTH_INTERVAL_MS = 10000;
+
+  var GREETING = "Hi I'm ELI+, a virtual leasing agent for The Residences community. I can help with tours, pricing, availability, amenities and the application process. Would you like to book a tour to see the property?";
 
   var state = {
     open: false,
@@ -34,15 +32,6 @@
     });
   }
 
-  function formatRelative(iso) {
-    var now = Date.now();
-    var then = new Date(iso).getTime();
-    var diff = Math.floor((now - then) / 1000);
-    if (diff < 60) return 'just now';
-    if (diff < 3600) return Math.floor(diff / 60) + 'm ago';
-    return new Date(iso).toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' });
-  }
-
   function escapeHTML(text) {
     var div = document.createElement('div');
     div.textContent = text;
@@ -51,7 +40,6 @@
 
   function renderMarkdown(text) {
     var html = escapeHTML(text);
-
     html = html.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
     html = html.replace(/(?<!\*)\*([^*]+?)\*(?!\*)/g, '<em>$1</em>');
     html = html.replace(/`([^`]+?)`/g, '<code>$1</code>');
@@ -87,7 +75,6 @@
     }
     if (inUl) result.push('</ul>');
     if (inOl) result.push('</ol>');
-
     return result.join('');
   }
 
@@ -97,7 +84,7 @@
         messages: state.messages,
         conversationId: state.conversationId,
       }));
-    } catch (e) { /* private browsing */ }
+    } catch (e) {}
   }
 
   function loadState() {
@@ -108,7 +95,7 @@
         state.messages = data.messages || [];
         state.conversationId = data.conversationId || null;
       }
-    } catch (e) { /* corrupted */ }
+    } catch (e) {}
   }
 
   function buildHTML() {
@@ -116,43 +103,34 @@
     container.id = 'leasing-ai-chat';
     container.innerHTML =
       '<div class="lai-panel">' +
-        '<div class="lai-header">' +
-          '<button class="lai-header-back" aria-label="Close chat">' +
-            '<svg viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6"/></svg>' +
-          '</button>' +
-          '<div class="lai-header-info">' +
-            '<div class="lai-header-title">Leasing Agent</div>' +
-            '<div class="lai-header-subtitle">Typically replies in a few minutes</div>' +
-          '</div>' +
-          '<button class="lai-header-new" aria-label="Start new conversation" title="Start new conversation">' +
-            '<svg viewBox="0 0 24 24"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4 12.5-12.5z"/></svg>' +
-          '</button>' +
-          '<span class="lai-health" title="Agent: Checking">' +
-            '<span class="lai-health-dot lai-checking"></span>' +
-            '<span class="lai-health-label">Checking</span>' +
-          '</span>' +
+        '<div class="lai-welcome-header">' +
+          '<h1 class="lai-welcome-title">Welcome, I\'m ELI</h1>' +
+          '<p class="lai-welcome-disclaimer">By using this feature, you accept our <a href="https://legal.entrata.com/prospect-portal-resident-portal-terms" target="_blank" rel="noopener noreferrer" class="lai-link">Terms</a> and our <a href="https://www.entrata.com/privacy-policy" target="_blank" rel="noopener noreferrer" class="lai-link">Privacy Policy</a>, that responses may be AI-generated, and that your conversation will be recorded for AI training.</p>' +
         '</div>' +
         '<div class="lai-messages"></div>' +
         '<div class="lai-composer-wrap">' +
           '<div class="lai-composer">' +
-            '<input type="text" class="lai-input" placeholder="Ask Leasing AI anything..." aria-label="Message">' +
+            '<input type="text" class="lai-input" placeholder="Type your message" aria-label="Message">' +
             '<button class="lai-send-btn" aria-label="Send message">' +
-              '<svg viewBox="0 0 16 16"><path d="M14.5 8 2 14l2.5-6L2 2l12.5 6Z"/></svg>' +
+              '<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>' +
             '</button>' +
           '</div>' +
         '</div>' +
         '<div class="lai-footer">' +
-          '<svg viewBox="0 0 24 24"><path d="M13 2 4 14h7l-1 8 9-12h-7l1-8z"/></svg>' +
+          '<svg viewBox="0 0 24 24" width="14" height="14"><rect x="2" y="3" width="20" height="14" rx="2" ry="2" fill="none" stroke="currentColor" stroke-width="2"/><line x1="8" y1="21" x2="16" y2="21" stroke="currentColor" stroke-width="2"/><line x1="12" y1="17" x2="12" y2="21" stroke="currentColor" stroke-width="2"/></svg>' +
           '<span>Powered by <strong>Entrata</strong></span>' +
         '</div>' +
       '</div>' +
       '<button class="lai-fab" aria-label="Open chat">' +
-        '<svg class="lai-icon-chat" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">' +
-          '<path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>' +
-        '</svg>' +
-        '<svg class="lai-icon-close" viewBox="0 0 24 24" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round">' +
+        '<span class="lai-fab-icon-wrap">' +
+          '<svg class="lai-icon-chat" viewBox="0 0 24 24" stroke-width="0" fill="white">' +
+            '<path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>' +
+          '</svg>' +
+        '</span>' +
+        '<svg class="lai-icon-close" viewBox="0 0 24 24" stroke="white" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round">' +
           '<line x1="6" y1="6" x2="18" y2="18"/><line x1="6" y1="18" x2="18" y2="6"/>' +
         '</svg>' +
+        '<span class="lai-fab-label">Chat with us</span>' +
         '<span class="lai-unread-dot"></span>' +
       '</button>';
 
@@ -164,16 +142,10 @@
     els.input = container.querySelector('.lai-input');
     els.sendBtn = container.querySelector('.lai-send-btn');
     els.fab = container.querySelector('.lai-fab');
-    els.backBtn = container.querySelector('.lai-header-back');
-    els.newBtn = container.querySelector('.lai-header-new');
-    els.healthDot = container.querySelector('.lai-health-dot');
-    els.healthLabel = container.querySelector('.lai-health-label');
   }
 
   function bindEvents() {
     els.fab.addEventListener('click', toggleChat);
-    els.backBtn.addEventListener('click', closeChat);
-    els.newBtn.addEventListener('click', handleNewConversation);
     els.sendBtn.addEventListener('click', handleSend);
     els.input.addEventListener('keydown', function (e) {
       if (e.key === 'Enter' && !e.shiftKey) {
@@ -203,58 +175,47 @@
     els.container.classList.remove('lai-open');
   }
 
-  function handleNewConversation() {
-    if (state.waiting) return;
-    var hasUserActivity = state.messages.some(function (m) { return m.role === 'user'; });
-    if (hasUserActivity) {
-      if (!window.confirm('Start a new conversation? Your current chat will be cleared.')) return;
-    }
-    state.messages = [];
-    state.conversationId = null;
-    saveState();
-    els.messages.innerHTML = '';
+  function addBotBubble(content) {
+    var bubble = document.createElement('div');
+    bubble.className = 'lai-bubble lai-bubble-bot';
+    bubble.innerHTML = renderMarkdown(content);
+    els.messages.appendChild(bubble);
+    scrollToBottom();
+  }
+
+  function addUserBubble(content) {
+    var bubble = document.createElement('div');
+    bubble.className = 'lai-bubble lai-bubble-user';
+    bubble.textContent = content;
+    els.messages.appendChild(bubble);
+    scrollToBottom();
   }
 
   function addMessage(role, content) {
     var msg = { role: role, content: content, timestamp: new Date().toISOString() };
     state.messages.push(msg);
     saveState();
-    renderMessage(msg);
-    scrollToBottom();
-  }
 
-  function renderMessage(msg) {
-    if (msg.role === 'system') {
-      var sys = document.createElement('div');
-      sys.className = 'lai-msg-system';
-      sys.innerHTML = '<div class="lai-msg-system-pill ' + (msg.error ? 'lai-error' : 'lai-info') + '">' + escapeHTML(msg.content) + '</div>';
-      els.messages.appendChild(sys);
-      return;
-    }
-
-    var isUser = msg.role === 'user';
-    var row = document.createElement('div');
-    row.className = 'lai-msg ' + (isUser ? 'lai-msg-user' : 'lai-msg-bot');
-
-    var avatar = '<div class="lai-avatar ' + (isUser ? 'lai-avatar-user' : 'lai-avatar-agent') + '">' + (isUser ? 'Y' : 'L') + '</div>';
-    var label = isUser ? '' : '<div class="lai-msg-label">Leasing AI <span>- Leasing Agent</span></div>';
-    var bubble = '<div class="lai-msg-bubble">' + (isUser ? escapeHTML(msg.content) : renderMarkdown(msg.content)) + '</div>';
-    var timeStr = formatRelative(msg.timestamp);
-    var sent = isUser ? '<span class="lai-msg-sent">Sent</span>' : '';
-    var time = '<div class="lai-msg-time">' + timeStr + sent + '</div>';
-
-    if (isUser) {
-      row.innerHTML = '<div class="lai-msg-col">' + bubble + time + '</div>' + avatar;
+    if (role === 'user') {
+      addUserBubble(content);
+    } else if (role === 'assistant') {
+      addBotBubble(content);
     } else {
-      row.innerHTML = avatar + '<div class="lai-msg-col">' + label + bubble + time + '</div>';
+      var sys = document.createElement('div');
+      sys.className = 'lai-bubble lai-bubble-system';
+      sys.textContent = content;
+      els.messages.appendChild(sys);
+      scrollToBottom();
     }
-
-    els.messages.appendChild(row);
   }
 
   function renderAllMessages() {
     els.messages.innerHTML = '';
-    state.messages.forEach(renderMessage);
+    addBotBubble(GREETING);
+    state.messages.forEach(function (msg) {
+      if (msg.role === 'user') addUserBubble(msg.content);
+      else if (msg.role === 'assistant') addBotBubble(msg.content);
+    });
     scrollToBottom();
   }
 
@@ -262,9 +223,7 @@
     var row = document.createElement('div');
     row.className = 'lai-typing';
     row.id = 'lai-typing-indicator';
-    row.innerHTML =
-      '<div class="lai-avatar lai-avatar-agent">L</div>' +
-      '<div class="lai-typing-dots"><div class="lai-typing-dot"></div><div class="lai-typing-dot"></div><div class="lai-typing-dot"></div></div>';
+    row.innerHTML = '<div class="lai-typing-dots"><div class="lai-typing-dot"></div><div class="lai-typing-dot"></div><div class="lai-typing-dot"></div></div>';
     els.messages.appendChild(row);
     scrollToBottom();
   }
@@ -278,7 +237,6 @@
     state.waiting = w;
     els.input.disabled = w;
     els.sendBtn.disabled = w;
-    els.newBtn.disabled = w;
   }
 
   function scrollToBottom() {
@@ -345,7 +303,6 @@
           hideTyping();
           setWaiting(false);
           addMessage('system', 'Sorry, I had trouble reaching the leasing system. Please try again.');
-          state.messages[state.messages.length - 1].error = true;
         }, remaining);
       });
   }
@@ -356,9 +313,6 @@
       .catch(function () { return false; })
       .then(function (ok) {
         state.health = ok;
-        els.healthDot.className = 'lai-health-dot' + (ok ? '' : ' lai-offline');
-        els.healthLabel.textContent = ok ? 'Online' : 'Offline';
-        els.healthDot.parentElement.title = 'Agent: ' + (ok ? 'Online' : 'Offline');
       });
   }
 
@@ -367,6 +321,7 @@
     buildHTML();
     bindEvents();
 
+    addBotBubble(GREETING);
     if (state.messages.length > 0) {
       renderAllMessages();
     }
