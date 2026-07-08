@@ -1,0 +1,54 @@
+{
+  "data": [
+    {
+      "id": 9001,
+      "property_id": 1062921,
+      "name": "Summer Move-In Special",
+      "description": "Get one month free on select 12-month leases! Move in by August 31, 2026.",
+      "start_date": "2026-06-01",
+      "end_date": "2026-08-31",
+      "type": "concession",
+      "value": "One month free rent"
+    },
+    {
+      "id": 9002,
+      "property_id": 1062921,
+      "name": "Waived Admin Fee",
+      "description": "Admin fee waived for online applications submitted this month.",
+      "start_date": "2026-06-01",
+      "end_date": "2026-06-30",
+      "type": "fee_waiver",
+      "value": "$150 admin fee waived"
+    },
+    {
+      "id": 9003,
+      "property_id": 1062922,
+      "name": "Labor Day Move-In",
+      "description": "Waived security deposit on all new leases signed in September. Start your beach life worry-free!",
+      "start_date": "2026-09-01",
+      "end_date": "2026-09-30",
+      "type": "fee_waiver",
+      "value": "Security deposit waived"
+    },
+    {
+      "id": 9004,
+      "property_id": 1062923,
+      "name": "Summer Coastal",
+      "description": "First month free on all 13-month leases signed this summer. Live the California dream for less.",
+      "start_date": "2026-06-01",
+      "end_date": "2026-08-31",
+      "type": "concession",
+      "value": "First month free on 13-month lease"
+    },
+    {
+      "id": 9005,
+      "property_id": 1062924,
+      "name": "City Starter",
+      "description": "$500 off first month's rent for remote workers. Show proof of remote employment to qualify.",
+      "start_date": "2026-06-01",
+      "end_date": "2026-07-31",
+      "type": "concession",
+      "value": "$500 off first month"
+    }
+  ]
+}

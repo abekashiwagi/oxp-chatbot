@@ -1,0 +1,28 @@
+{
+  "data": {
+    "1062921": [
+      {"lease_term_id": 3001, "property_id": 1062921, "term_months": 12, "name": "12-Month Lease", "description": "Standard annual lease"},
+      {"lease_term_id": 3002, "property_id": 1062921, "term_months": 6, "name": "6-Month Lease", "description": "Short-term lease with premium"},
+      {"lease_term_id": 3003, "property_id": 1062921, "term_months": 9, "name": "9-Month Lease", "description": "Mid-term lease option"},
+      {"lease_term_id": 3004, "property_id": 1062921, "term_months": 15, "name": "15-Month Lease", "description": "Extended lease with discount"}
+    ],
+    "1062922": [
+      {"lease_term_id": 3101, "property_id": 1062922, "term_months": 12, "name": "12-Month Lease", "description": "Standard annual lease"},
+      {"lease_term_id": 3102, "property_id": 1062922, "term_months": 6, "name": "6-Month Lease", "description": "Short-term seasonal lease"},
+      {"lease_term_id": 3103, "property_id": 1062922, "term_months": 9, "name": "9-Month Lease", "description": "Mid-term lease option"},
+      {"lease_term_id": 3104, "property_id": 1062922, "term_months": 15, "name": "15-Month Lease", "description": "Extended lease with preferred rate"}
+    ],
+    "1062923": [
+      {"lease_term_id": 3201, "property_id": 1062923, "term_months": 12, "name": "12-Month Lease", "description": "Standard annual lease"},
+      {"lease_term_id": 3202, "property_id": 1062923, "term_months": 6, "name": "6-Month Lease", "description": "Short-term coastal lease"},
+      {"lease_term_id": 3203, "property_id": 1062923, "term_months": 9, "name": "9-Month Lease", "description": "Mid-term lease option"},
+      {"lease_term_id": 3204, "property_id": 1062923, "term_months": 15, "name": "15-Month Lease", "description": "Extended lease with discount"}
+    ],
+    "1062924": [
+      {"lease_term_id": 3301, "property_id": 1062924, "term_months": 12, "name": "12-Month Lease", "description": "Standard annual lease"},
+      {"lease_term_id": 3302, "property_id": 1062924, "term_months": 6, "name": "6-Month Lease", "description": "Short-term city lease"},
+      {"lease_term_id": 3303, "property_id": 1062924, "term_months": 9, "name": "9-Month Lease", "description": "Mid-term lease option"},
+      {"lease_term_id": 3304, "property_id": 1062924, "term_months": 15, "name": "15-Month Lease", "description": "Extended lease with preferred rate"}
+    ]
+  }
+}

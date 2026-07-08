@@ -1,0 +1,40 @@
+{
+  "data": {
+    "1062921": {
+      "property_id": 1062921,
+      "property_name": "The Residences",
+      "available_tour_types": [
+        {"id": 1, "name": "tour", "display_name": "In-Person Tour", "description": "Guided tour with a leasing consultant", "duration_minutes": 30},
+        {"id": 2, "name": "self_guided_tour", "display_name": "Self-Guided Tour", "description": "Tour at your own pace with smart lock access", "duration_minutes": 60},
+        {"id": 3, "name": "virtual_tour", "display_name": "Virtual Tour", "description": "Live video tour with a leasing consultant", "duration_minutes": 20}
+      ]
+    },
+    "1062922": {
+      "property_id": 1062922,
+      "property_name": "The Hamptons",
+      "available_tour_types": [
+        {"id": 1, "name": "tour", "display_name": "In-Person Tour", "description": "Guided tour with a leasing consultant", "duration_minutes": 45},
+        {"id": 2, "name": "self_guided_tour", "display_name": "Self-Guided Tour", "description": "Tour at your own pace with smart lock access", "duration_minutes": 60},
+        {"id": 3, "name": "virtual_tour", "display_name": "Virtual Tour", "description": "Live video tour with a leasing consultant", "duration_minutes": 30}
+      ]
+    },
+    "1062923": {
+      "property_id": 1062923,
+      "property_name": "The OC",
+      "available_tour_types": [
+        {"id": 1, "name": "tour", "display_name": "In-Person Tour", "description": "Guided tour with a leasing consultant", "duration_minutes": 30},
+        {"id": 2, "name": "self_guided_tour", "display_name": "Self-Guided Tour", "description": "Tour at your own pace with smart lock access", "duration_minutes": 60},
+        {"id": 3, "name": "virtual_tour", "display_name": "Virtual Tour", "description": "Live video tour with a leasing consultant", "duration_minutes": 20}
+      ]
+    },
+    "1062924": {
+      "property_id": 1062924,
+      "property_name": "London Town",
+      "available_tour_types": [
+        {"id": 1, "name": "tour", "display_name": "In-Person Tour", "description": "Guided tour with a leasing consultant", "duration_minutes": 30},
+        {"id": 2, "name": "self_guided_tour", "display_name": "Self-Guided Tour", "description": "Tour at your own pace with smart lock access", "duration_minutes": 60},
+        {"id": 3, "name": "virtual_tour", "display_name": "Virtual Tour", "description": "Live video tour with a leasing consultant", "duration_minutes": 20}
+      ]
+    }
+  }
+}

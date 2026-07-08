@@ -1,0 +1,68 @@
+{
+  "data": {
+    "1062921": {
+      "application_fees": [
+        {"name": "Application Fee", "amount": 50.00, "per": "applicant", "refundable": false}
+      ],
+      "pet_fees": [
+        {"name": "Pet Deposit", "amount": 300.00, "per": "pet", "refundable": true},
+        {"name": "Pet Rent", "amount": 35.00, "per": "pet", "frequency": "monthly", "refundable": false}
+      ],
+      "admin_fees": [
+        {"name": "Admin Fee", "amount": 150.00, "refundable": false}
+      ],
+      "move_in_fees": [
+        {"name": "Key/Fob Deposit", "amount": 50.00, "per": "unit", "refundable": true},
+        {"name": "Renters Insurance", "amount": 15.00, "per": "unit", "frequency": "monthly", "refundable": false}
+      ]
+    },
+    "1062922": {
+      "application_fees": [
+        {"name": "Application Fee", "amount": 75.00, "per": "applicant", "refundable": false}
+      ],
+      "pet_fees": [
+        {"name": "Pet Deposit", "amount": 400.00, "per": "pet", "refundable": true},
+        {"name": "Pet Rent", "amount": 50.00, "per": "pet", "frequency": "monthly", "refundable": false}
+      ],
+      "admin_fees": [
+        {"name": "Admin Fee", "amount": 200.00, "refundable": false}
+      ],
+      "move_in_fees": [
+        {"name": "Key/Fob Deposit", "amount": 75.00, "per": "unit", "refundable": true},
+        {"name": "Renters Insurance", "amount": 20.00, "per": "unit", "frequency": "monthly", "refundable": false}
+      ]
+    },
+    "1062923": {
+      "application_fees": [
+        {"name": "Application Fee", "amount": 60.00, "per": "applicant", "refundable": false}
+      ],
+      "pet_fees": [
+        {"name": "Pet Deposit", "amount": 350.00, "per": "pet", "refundable": true},
+        {"name": "Pet Rent", "amount": 45.00, "per": "pet", "frequency": "monthly", "refundable": false}
+      ],
+      "admin_fees": [
+        {"name": "Admin Fee", "amount": 175.00, "refundable": false}
+      ],
+      "move_in_fees": [
+        {"name": "Key/Fob Deposit", "amount": 50.00, "per": "unit", "refundable": true},
+        {"name": "Renters Insurance", "amount": 18.00, "per": "unit", "frequency": "monthly", "refundable": false}
+      ]
+    },
+    "1062924": {
+      "application_fees": [
+        {"name": "Application Fee", "amount": 55.00, "per": "applicant", "refundable": false}
+      ],
+      "pet_fees": [
+        {"name": "Pet Deposit", "amount": 350.00, "per": "pet", "refundable": true},
+        {"name": "Pet Rent", "amount": 40.00, "per": "pet", "frequency": "monthly", "refundable": false}
+      ],
+      "admin_fees": [
+        {"name": "Admin Fee", "amount": 150.00, "refundable": false}
+      ],
+      "move_in_fees": [
+        {"name": "Key/Fob Deposit", "amount": 50.00, "per": "unit", "refundable": true},
+        {"name": "Renters Insurance", "amount": 18.00, "per": "unit", "frequency": "monthly", "refundable": false}
+      ]
+    }
+  }
+}

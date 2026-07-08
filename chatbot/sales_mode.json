@@ -1,0 +1,75 @@
+{
+  "mode_id": "qualification-first",
+  "mode_name": "Qualification-first / Screening Mode",
+  "conversion_goal": "schedule_tours",
+  "discovery_questions": [
+    {
+      "label": "Desired move-in date",
+      "status": "required"
+    },
+    {
+      "label": "Budget",
+      "status": "required"
+    },
+    {
+      "label": "Bedroom count",
+      "status": "required"
+    },
+    {
+      "label": "Bathroom count",
+      "status": "optional"
+    },
+    {
+      "label": "Unit preferences",
+      "status": "optional"
+    },
+    {
+      "label": "Pet ownership",
+      "status": "required"
+    },
+    {
+      "label": "Lease term",
+      "status": "optional"
+    },
+    {
+      "label": "Tour preference",
+      "status": "optional"
+    },
+    {
+      "label": "Application readiness",
+      "status": "optional"
+    }
+  ],
+  "screening_criteria": [
+    {
+      "question_label": "Pet ownership",
+      "acceptable_values": "No pets",
+      "resulting_action": "allow_tour",
+      "priority": 1
+    },
+    {
+      "question_label": "Pet ownership",
+      "acceptable_values": "Cat (any size)",
+      "resulting_action": "allow_tour",
+      "priority": 2
+    },
+    {
+      "question_label": "Pet ownership",
+      "acceptable_values": "Dog > 50 lbs",
+      "resulting_action": "escalate",
+      "priority": 3
+    },
+    {
+      "question_label": "Budget",
+      "acceptable_values": "≥ $1,400/mo",
+      "resulting_action": "allow_tour",
+      "priority": 4
+    },
+    {
+      "question_label": "Budget",
+      "acceptable_values": "< $1,200/mo",
+      "resulting_action": "mark_unqualified",
+      "priority": 5
+    }
+  ]
+}

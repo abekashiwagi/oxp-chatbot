@@ -1,0 +1,1124 @@
+{
+  "data": [
+    {
+      "unit_space_id": 10001,
+      "property_unit_id": 20001,
+      "cid": 50000,
+      "property_id": 1062921,
+      "property_name": "The Residences",
+      "unit_number": "A-101",
+      "building_name": "North Tower",
+      "property_floorplan_name": "The Studio A",
+      "unit_square_feet": 650,
+      "unit_of_measure_for_area": "SQ_FT",
+      "maximum_occupants": 2,
+      "maximum_pets": 2,
+      "number_of_bedrooms": 0,
+      "number_of_bathrooms": 1.0,
+      "unit_status": "Vacant Ready (Available)",
+      "available_on_date": null,
+      "rates": [
+        {
+          "lease_term_id": 3001,
+          "lease_term_months": 12,
+          "rent_amount": 1450.0,
+          "deposit_amount": 500.0,
+          "special_rent_amount": null,
+          "base_rent_amount": 1450.0,
+          "amenity_rent_amount": null,
+          "rate_frequency": "monthly"
+        },
+        {
+          "lease_term_id": 3002,
+          "lease_term_months": 6,
+          "rent_amount": 1595.0,
+          "deposit_amount": 500.0,
+          "special_rent_amount": null,
+          "base_rent_amount": 1595.0,
+          "amenity_rent_amount": null,
+          "rate_frequency": "monthly"
+        }
+      ]
+    },
+    {
+      "unit_space_id": 10002,
+      "property_unit_id": 20002,
+      "cid": 50000,
+      "property_id": 1062921,
+      "property_name": "The Residences",
+      "unit_number": "A-204",
+      "building_name": "North Tower",
+      "property_floorplan_name": "The Studio A",
+      "unit_square_feet": 650,
+      "unit_of_measure_for_area": "SQ_FT",
+      "maximum_occupants": 2,
+      "maximum_pets": 2,
+      "number_of_bedrooms": 0,
+      "number_of_bathrooms": 1.0,
+      "unit_status": "Vacant Ready (Available)",
+      "available_on_date": null,
+      "rates": [
+        {
+          "lease_term_id": 3001,
+          "lease_term_months": 12,
+          "rent_amount": 1450.0,
+          "deposit_amount": 500.0,
+          "special_rent_amount": 1350.0,
+          "base_rent_amount": 1450.0,
+          "amenity_rent_amount": null,
+          "rate_frequency": "monthly"
+        },
+        {
+          "lease_term_id": 3002,
+          "lease_term_months": 6,
+          "rent_amount": 1595.0,
+          "deposit_amount": 500.0,
+          "special_rent_amount": null,
+          "base_rent_amount": 1595.0,
+          "amenity_rent_amount": null,
+          "rate_frequency": "monthly"
+        }
+      ]
+    },
+    {
+      "unit_space_id": 10003,
+      "property_unit_id": 20003,
+      "cid": 50000,
+      "property_id": 1062921,
+      "property_name": "The Residences",
+      "unit_number": "B-115",
+      "building_name": "South Tower",
+      "property_floorplan_name": "The Studio B",
+      "unit_square_feet": 720,
+      "unit_of_measure_for_area": "SQ_FT",
+      "maximum_occupants": 2,
+      "maximum_pets": 2,
+      "number_of_bedrooms": 0,
+      "number_of_bathrooms": 1.0,
+      "unit_status": "Vacant Ready (Available)",
+      "available_on_date": null,
+      "rates": [
+        {
+          "lease_term_id": 3001,
+          "lease_term_months": 12,
+          "rent_amount": 1550.0,
+          "deposit_amount": 500.0,
+          "special_rent_amount": null,
+          "base_rent_amount": 1550.0,
+          "amenity_rent_amount": null,
+          "rate_frequency": "monthly"
+        },
+        {
+          "lease_term_id": 3002,
+          "lease_term_months": 6,
+          "rent_amount": 1705.0,
+          "deposit_amount": 500.0,
+          "special_rent_amount": null,
+          "base_rent_amount": 1705.0,
+          "amenity_rent_amount": null,
+          "rate_frequency": "monthly"
+        }
+      ]
+    },
+    {
+      "unit_space_id": 10004,
+      "property_unit_id": 20004,
+      "cid": 50000,
+      "property_id": 1062921,
+      "property_name": "The Residences",
+      "unit_number": "B-302",
+      "building_name": "South Tower",
+      "property_floorplan_name": "The Studio B",
+      "unit_square_feet": 720,
+      "unit_of_measure_for_area": "SQ_FT",
+      "maximum_occupants": 2,
+      "maximum_pets": 2,
+      "number_of_bedrooms": 0,
+      "number_of_bathrooms": 1.0,
+      "unit_status": "Vacant Not Ready",
+      "available_on_date": "2026-07-15",
+      "rates": [
+        {
+          "lease_term_id": 3001,
+          "lease_term_months": 12,
+          "rent_amount": 1550.0,
+          "deposit_amount": 500.0,
+          "special_rent_amount": 1450.0,
+          "base_rent_amount": 1550.0,
+          "amenity_rent_amount": null,
+          "rate_frequency": "monthly"
+        },
+        {
+          "lease_term_id": 3002,
+          "lease_term_months": 6,
+          "rent_amount": 1705.0,
+          "deposit_amount": 500.0,
+          "special_rent_amount": null,
+          "base_rent_amount": 1705.0,
+          "amenity_rent_amount": null,
+          "rate_frequency": "monthly"
+        }
+      ]
+    },
+    {
+      "unit_space_id": 10005,
+      "property_unit_id": 20005,
+      "cid": 50000,
+      "property_id": 1062921,
+      "property_name": "The Residences",
+      "unit_number": "A-310",
+      "building_name": "North Tower",
+      "property_floorplan_name": "The Classic",
+      "unit_square_feet": 825,
+      "unit_of_measure_for_area": "SQ_FT",
+      "maximum_occupants": 3,
+      "maximum_pets": 2,
+      "number_of_bedrooms": 1,
+      "number_of_bathrooms": 1.0,
+      "unit_status": "Vacant Ready (Available)",
+      "available_on_date": null,
+      "rates": [
+        {
+          "lease_term_id": 3001,
+          "lease_term_months": 12,
+          "rent_amount": 1850.0,
+          "deposit_amount": 750.0,
+          "special_rent_amount": null,
+          "base_rent_amount": 1850.0,
+          "amenity_rent_amount": null,
+          "rate_frequency": "monthly"
+        },
+        {
+          "lease_term_id": 3002,
+          "lease_term_months": 6,
+          "rent_amount": 2035.0,
+          "deposit_amount": 750.0,
+          "special_rent_amount": null,
+          "base_rent_amount": 2035.0,
+          "amenity_rent_amount": null,
+          "rate_frequency": "monthly"
+        }
+      ]
+    },
+    {
+      "unit_space_id": 10006,
+      "property_unit_id": 20006,
+      "cid": 50000,
+      "property_id": 1062921,
+      "property_name": "The Residences",
+      "unit_number": "C-108",
+      "building_name": "East Wing",
+      "property_floorplan_name": "The Classic",
+      "unit_square_feet": 825,
+      "unit_of_measure_for_area": "SQ_FT",
+      "maximum_occupants": 3,
+      "maximum_pets": 2,
+      "number_of_bedrooms": 1,
+      "number_of_bathrooms": 1.0,
+      "unit_status": "Vacant Not Ready",
+      "available_on_date": "2026-07-01",
+      "rates": [
+        {
+          "lease_term_id": 3001,
+          "lease_term_months": 12,
+          "rent_amount": 1850.0,
+          "deposit_amount": 750.0,
+          "special_rent_amount": 1750.0,
+          "base_rent_amount": 1850.0,
+          "amenity_rent_amount": null,
+          "rate_frequency": "monthly"
+        },
+        {
+          "lease_term_id": 3002,
+          "lease_term_months": 6,
+          "rent_amount": 2035.0,
+          "deposit_amount": 750.0,
+          "special_rent_amount": null,
+          "base_rent_amount": 2035.0,
+          "amenity_rent_amount": null,
+          "rate_frequency": "monthly"
+        }
+      ]
+    },
+    {
+      "unit_space_id": 10007,
+      "property_unit_id": 20007,
+      "cid": 50000,
+      "property_id": 1062921,
+      "property_name": "The Residences",
+      "unit_number": "C-215",
+      "building_name": "East Wing",
+      "property_floorplan_name": "The Modern",
+      "unit_square_feet": 900,
+      "unit_of_measure_for_area": "SQ_FT",
+      "maximum_occupants": 3,
+      "maximum_pets": 2,
+      "number_of_bedrooms": 1,
+      "number_of_bathrooms": 1.0,
+      "unit_status": "Vacant Ready (Available)",
+      "available_on_date": null,
+      "rates": [
+        {
+          "lease_term_id": 3001,
+          "lease_term_months": 12,
+          "rent_amount": 1950.0,
+          "deposit_amount": 750.0,
+          "special_rent_amount": null,
+          "base_rent_amount": 1950.0,
+          "amenity_rent_amount": null,
+          "rate_frequency": "monthly"
+        },
+        {
+          "lease_term_id": 3002,
+          "lease_term_months": 6,
+          "rent_amount": 2145.0,
+          "deposit_amount": 750.0,
+          "special_rent_amount": null,
+          "base_rent_amount": 2145.0,
+          "amenity_rent_amount": null,
+          "rate_frequency": "monthly"
+        }
+      ]
+    },
+    {
+      "unit_space_id": 10008,
+      "property_unit_id": 20008,
+      "cid": 50000,
+      "property_id": 1062921,
+      "property_name": "The Residences",
+      "unit_number": "A-405",
+      "building_name": "North Tower",
+      "property_floorplan_name": "The Modern",
+      "unit_square_feet": 900,
+      "unit_of_measure_for_area": "SQ_FT",
+      "maximum_occupants": 3,
+      "maximum_pets": 2,
+      "number_of_bedrooms": 1,
+      "number_of_bathrooms": 1.0,
+      "unit_status": "Vacant Not Ready",
+      "available_on_date": "2026-08-01",
+      "rates": [
+        {
+          "lease_term_id": 3001,
+          "lease_term_months": 12,
+          "rent_amount": 1950.0,
+          "deposit_amount": 750.0,
+          "special_rent_amount": 1850.0,
+          "base_rent_amount": 1950.0,
+          "amenity_rent_amount": null,
+          "rate_frequency": "monthly"
+        },
+        {
+          "lease_term_id": 3002,
+          "lease_term_months": 6,
+          "rent_amount": 2145.0,
+          "deposit_amount": 750.0,
+          "special_rent_amount": null,
+          "base_rent_amount": 2145.0,
+          "amenity_rent_amount": null,
+          "rate_frequency": "monthly"
+        }
+      ]
+    },
+    {
+      "unit_space_id": 10009,
+      "property_unit_id": 20009,
+      "cid": 50000,
+      "property_id": 1062921,
+      "property_name": "The Residences",
+      "unit_number": "B-410",
+      "building_name": "South Tower",
+      "property_floorplan_name": "The Grand",
+      "unit_square_feet": 1150,
+      "unit_of_measure_for_area": "SQ_FT",
+      "maximum_occupants": 4,
+      "maximum_pets": 2,
+      "number_of_bedrooms": 2,
+      "number_of_bathrooms": 2.0,
+      "unit_status": "Vacant Ready (Available)",
+      "available_on_date": null,
+      "rates": [
+        {
+          "lease_term_id": 3001,
+          "lease_term_months": 12,
+          "rent_amount": 2450.0,
+          "deposit_amount": 1000.0,
+          "special_rent_amount": null,
+          "base_rent_amount": 2450.0,
+          "amenity_rent_amount": null,
+          "rate_frequency": "monthly"
+        },
+        {
+          "lease_term_id": 3002,
+          "lease_term_months": 6,
+          "rent_amount": 2695.0,
+          "deposit_amount": 1000.0,
+          "special_rent_amount": null,
+          "base_rent_amount": 2695.0,
+          "amenity_rent_amount": null,
+          "rate_frequency": "monthly"
+        }
+      ]
+    },
+    {
+      "unit_space_id": 10010,
+      "property_unit_id": 20010,
+      "cid": 50000,
+      "property_id": 1062921,
+      "property_name": "The Residences",
+      "unit_number": "A-502",
+      "building_name": "North Tower",
+      "property_floorplan_name": "The Grand",
+      "unit_square_feet": 1150,
+      "unit_of_measure_for_area": "SQ_FT",
+      "maximum_occupants": 4,
+      "maximum_pets": 2,
+      "number_of_bedrooms": 2,
+      "number_of_bathrooms": 2.0,
+      "unit_status": "Vacant Ready (Available)",
+      "available_on_date": null,
+      "rates": [
+        {
+          "lease_term_id": 3001,
+          "lease_term_months": 12,
+          "rent_amount": 2450.0,
+          "deposit_amount": 1000.0,
+          "special_rent_amount": 2350.0,
+          "base_rent_amount": 2450.0,
+          "amenity_rent_amount": null,
+          "rate_frequency": "monthly"
+        },
+        {
+          "lease_term_id": 3002,
+          "lease_term_months": 6,
+          "rent_amount": 2695.0,
+          "deposit_amount": 1000.0,
+          "special_rent_amount": null,
+          "base_rent_amount": 2695.0,
+          "amenity_rent_amount": null,
+          "rate_frequency": "monthly"
+        }
+      ]
+    },
+    {
+      "unit_space_id": 10011,
+      "property_unit_id": 20011,
+      "cid": 50000,
+      "property_id": 1062921,
+      "property_name": "The Residences",
+      "unit_number": "C-401",
+      "building_name": "East Wing",
+      "property_floorplan_name": "The Terrace",
+      "unit_square_feet": 1250,
+      "unit_of_measure_for_area": "SQ_FT",
+      "maximum_occupants": 4,
+      "maximum_pets": 2,
+      "number_of_bedrooms": 2,
+      "number_of_bathrooms": 2.0,
+      "unit_status": "Vacant Ready (Available)",
+      "available_on_date": null,
+      "rates": [
+        {
+          "lease_term_id": 3001,
+          "lease_term_months": 12,
+          "rent_amount": 2650.0,
+          "deposit_amount": 1000.0,
+          "special_rent_amount": null,
+          "base_rent_amount": 2650.0,
+          "amenity_rent_amount": null,
+          "rate_frequency": "monthly"
+        },
+        {
+          "lease_term_id": 3002,
+          "lease_term_months": 6,
+          "rent_amount": 2915.0,
+          "deposit_amount": 1000.0,
+          "special_rent_amount": null,
+          "base_rent_amount": 2915.0,
+          "amenity_rent_amount": null,
+          "rate_frequency": "monthly"
+        }
+      ]
+    },
+    {
+      "unit_space_id": 10012,
+      "property_unit_id": 20012,
+      "cid": 50000,
+      "property_id": 1062921,
+      "property_name": "The Residences",
+      "unit_number": "A-601",
+      "building_name": "North Tower",
+      "property_floorplan_name": "The Penthouse",
+      "unit_square_feet": 1600,
+      "unit_of_measure_for_area": "SQ_FT",
+      "maximum_occupants": 6,
+      "maximum_pets": 2,
+      "number_of_bedrooms": 3,
+      "number_of_bathrooms": 2.5,
+      "unit_status": "Vacant Not Ready",
+      "available_on_date": "2026-07-15",
+      "rates": [
+        {
+          "lease_term_id": 3001,
+          "lease_term_months": 12,
+          "rent_amount": 3450.0,
+          "deposit_amount": 1500.0,
+          "special_rent_amount": null,
+          "base_rent_amount": 3450.0,
+          "amenity_rent_amount": null,
+          "rate_frequency": "monthly"
+        },
+        {
+          "lease_term_id": 3002,
+          "lease_term_months": 6,
+          "rent_amount": 3795.0,
+          "deposit_amount": 1500.0,
+          "special_rent_amount": null,
+          "base_rent_amount": 3795.0,
+          "amenity_rent_amount": null,
+          "rate_frequency": "monthly"
+        }
+      ]
+    },
+    {
+      "unit_space_id": 10013,
+      "property_unit_id": 20013,
+      "cid": 50000,
+      "property_id": 1062921,
+      "property_name": "The Residences",
+      "unit_number": "B-601",
+      "building_name": "South Tower",
+      "property_floorplan_name": "The Estate",
+      "unit_square_feet": 1850,
+      "unit_of_measure_for_area": "SQ_FT",
+      "maximum_occupants": 6,
+      "maximum_pets": 2,
+      "number_of_bedrooms": 3,
+      "number_of_bathrooms": 2.5,
+      "unit_status": "Vacant Ready (Available)",
+      "available_on_date": null,
+      "rates": [
+        {
+          "lease_term_id": 3001,
+          "lease_term_months": 12,
+          "rent_amount": 3950.0,
+          "deposit_amount": 1500.0,
+          "special_rent_amount": 3750.0,
+          "base_rent_amount": 3950.0,
+          "amenity_rent_amount": null,
+          "rate_frequency": "monthly"
+        },
+        {
+          "lease_term_id": 3002,
+          "lease_term_months": 6,
+          "rent_amount": 4345.0,
+          "deposit_amount": 1500.0,
+          "special_rent_amount": null,
+          "base_rent_amount": 4345.0,
+          "amenity_rent_amount": null,
+          "rate_frequency": "monthly"
+        }
+      ]
+    },
+    {
+      "unit_space_id": 11001,
+      "property_unit_id": 21001,
+      "cid": 50001,
+      "property_id": 1062922,
+      "property_name": "The Hamptons",
+      "unit_number": "H-102",
+      "building_name": "Oceanfront",
+      "property_floorplan_name": "The Cottage",
+      "unit_square_feet": 580,
+      "unit_of_measure_for_area": "SQ_FT",
+      "maximum_occupants": 2,
+      "maximum_pets": 2,
+      "number_of_bedrooms": 0,
+      "number_of_bathrooms": 1.0,
+      "unit_status": "Vacant Ready (Available)",
+      "available_on_date": null,
+      "rates": [
+        {
+          "lease_term_id": 3101,
+          "lease_term_months": 12,
+          "rent_amount": 2100.0,
+          "deposit_amount": 700.0,
+          "special_rent_amount": null,
+          "base_rent_amount": 2100.0,
+          "amenity_rent_amount": null,
+          "rate_frequency": "monthly"
+        },
+        {
+          "lease_term_id": 3102,
+          "lease_term_months": 6,
+          "rent_amount": 2310.0,
+          "deposit_amount": 700.0,
+          "special_rent_amount": null,
+          "base_rent_amount": 2310.0,
+          "amenity_rent_amount": null,
+          "rate_frequency": "monthly"
+        }
+      ]
+    },
+    {
+      "unit_space_id": 11002,
+      "property_unit_id": 21002,
+      "cid": 50001,
+      "property_id": 1062922,
+      "property_name": "The Hamptons",
+      "unit_number": "H-215",
+      "building_name": "Dunes Wing",
+      "property_floorplan_name": "The Cape",
+      "unit_square_feet": 850,
+      "unit_of_measure_for_area": "SQ_FT",
+      "maximum_occupants": 3,
+      "maximum_pets": 2,
+      "number_of_bedrooms": 1,
+      "number_of_bathrooms": 1.0,
+      "unit_status": "Vacant Ready (Available)",
+      "available_on_date": null,
+      "rates": [
+        {
+          "lease_term_id": 3101,
+          "lease_term_months": 12,
+          "rent_amount": 3100.0,
+          "deposit_amount": 1025.0,
+          "special_rent_amount": null,
+          "base_rent_amount": 3100.0,
+          "amenity_rent_amount": null,
+          "rate_frequency": "monthly"
+        },
+        {
+          "lease_term_id": 3102,
+          "lease_term_months": 6,
+          "rent_amount": 3410.0,
+          "deposit_amount": 1025.0,
+          "special_rent_amount": null,
+          "base_rent_amount": 3410.0,
+          "amenity_rent_amount": null,
+          "rate_frequency": "monthly"
+        }
+      ]
+    },
+    {
+      "unit_space_id": 11003,
+      "property_unit_id": 21003,
+      "cid": 50001,
+      "property_id": 1062922,
+      "property_name": "The Hamptons",
+      "unit_number": "H-308",
+      "building_name": "Oceanfront",
+      "property_floorplan_name": "The Shore",
+      "unit_square_feet": 950,
+      "unit_of_measure_for_area": "SQ_FT",
+      "maximum_occupants": 3,
+      "maximum_pets": 2,
+      "number_of_bedrooms": 1,
+      "number_of_bathrooms": 1.0,
+      "unit_status": "Vacant Not Ready",
+      "available_on_date": "2026-07-01",
+      "rates": [
+        {
+          "lease_term_id": 3101,
+          "lease_term_months": 12,
+          "rent_amount": 3500.0,
+          "deposit_amount": 1150.0,
+          "special_rent_amount": null,
+          "base_rent_amount": 3500.0,
+          "amenity_rent_amount": null,
+          "rate_frequency": "monthly"
+        },
+        {
+          "lease_term_id": 3102,
+          "lease_term_months": 6,
+          "rent_amount": 3850.0,
+          "deposit_amount": 1150.0,
+          "special_rent_amount": null,
+          "base_rent_amount": 3850.0,
+          "amenity_rent_amount": null,
+          "rate_frequency": "monthly"
+        }
+      ]
+    },
+    {
+      "unit_space_id": 11004,
+      "property_unit_id": 21004,
+      "cid": 50001,
+      "property_id": 1062922,
+      "property_name": "The Hamptons",
+      "unit_number": "H-412",
+      "building_name": "Dunes Wing",
+      "property_floorplan_name": "The Breakers",
+      "unit_square_feet": 1300,
+      "unit_of_measure_for_area": "SQ_FT",
+      "maximum_occupants": 4,
+      "maximum_pets": 2,
+      "number_of_bedrooms": 2,
+      "number_of_bathrooms": 2.0,
+      "unit_status": "Vacant Ready (Available)",
+      "available_on_date": null,
+      "rates": [
+        {
+          "lease_term_id": 3101,
+          "lease_term_months": 12,
+          "rent_amount": 4600.0,
+          "deposit_amount": 1525.0,
+          "special_rent_amount": null,
+          "base_rent_amount": 4600.0,
+          "amenity_rent_amount": null,
+          "rate_frequency": "monthly"
+        },
+        {
+          "lease_term_id": 3102,
+          "lease_term_months": 6,
+          "rent_amount": 5060.0,
+          "deposit_amount": 1525.0,
+          "special_rent_amount": null,
+          "base_rent_amount": 5060.0,
+          "amenity_rent_amount": null,
+          "rate_frequency": "monthly"
+        }
+      ]
+    },
+    {
+      "unit_space_id": 11005,
+      "property_unit_id": 21005,
+      "cid": 50001,
+      "property_id": 1062922,
+      "property_name": "The Hamptons",
+      "unit_number": "H-501",
+      "building_name": "Oceanfront",
+      "property_floorplan_name": "The Estate",
+      "unit_square_feet": 2100,
+      "unit_of_measure_for_area": "SQ_FT",
+      "maximum_occupants": 6,
+      "maximum_pets": 2,
+      "number_of_bedrooms": 3,
+      "number_of_bathrooms": 2.5,
+      "unit_status": "Vacant Ready (Available)",
+      "available_on_date": null,
+      "rates": [
+        {
+          "lease_term_id": 3101,
+          "lease_term_months": 12,
+          "rent_amount": 6500.0,
+          "deposit_amount": 2150.0,
+          "special_rent_amount": null,
+          "base_rent_amount": 6500.0,
+          "amenity_rent_amount": null,
+          "rate_frequency": "monthly"
+        },
+        {
+          "lease_term_id": 3102,
+          "lease_term_months": 6,
+          "rent_amount": 7150.0,
+          "deposit_amount": 2150.0,
+          "special_rent_amount": null,
+          "base_rent_amount": 7150.0,
+          "amenity_rent_amount": null,
+          "rate_frequency": "monthly"
+        }
+      ]
+    },
+    {
+      "unit_space_id": 12001,
+      "property_unit_id": 22001,
+      "cid": 50002,
+      "property_id": 1062923,
+      "property_name": "The OC",
+      "unit_number": "OC-104",
+      "building_name": "Pacific Tower",
+      "property_floorplan_name": "The Cove",
+      "unit_square_feet": 620,
+      "unit_of_measure_for_area": "SQ_FT",
+      "maximum_occupants": 2,
+      "maximum_pets": 2,
+      "number_of_bedrooms": 0,
+      "number_of_bathrooms": 1.0,
+      "unit_status": "Vacant Ready (Available)",
+      "available_on_date": null,
+      "rates": [
+        {
+          "lease_term_id": 3201,
+          "lease_term_months": 12,
+          "rent_amount": 1950.0,
+          "deposit_amount": 650.0,
+          "special_rent_amount": null,
+          "base_rent_amount": 1950.0,
+          "amenity_rent_amount": null,
+          "rate_frequency": "monthly"
+        },
+        {
+          "lease_term_id": 3202,
+          "lease_term_months": 6,
+          "rent_amount": 2145.0,
+          "deposit_amount": 650.0,
+          "special_rent_amount": null,
+          "base_rent_amount": 2145.0,
+          "amenity_rent_amount": null,
+          "rate_frequency": "monthly"
+        }
+      ]
+    },
+    {
+      "unit_space_id": 12002,
+      "property_unit_id": 22002,
+      "cid": 50002,
+      "property_id": 1062923,
+      "property_name": "The OC",
+      "unit_number": "OC-208",
+      "building_name": "Pacific Tower",
+      "property_floorplan_name": "The Pier",
+      "unit_square_feet": 700,
+      "unit_of_measure_for_area": "SQ_FT",
+      "maximum_occupants": 2,
+      "maximum_pets": 2,
+      "number_of_bedrooms": 0,
+      "number_of_bathrooms": 1.0,
+      "unit_status": "Vacant Ready (Available)",
+      "available_on_date": null,
+      "rates": [
+        {
+          "lease_term_id": 3201,
+          "lease_term_months": 12,
+          "rent_amount": 2150.0,
+          "deposit_amount": 710.0,
+          "special_rent_amount": null,
+          "base_rent_amount": 2150.0,
+          "amenity_rent_amount": null,
+          "rate_frequency": "monthly"
+        },
+        {
+          "lease_term_id": 3202,
+          "lease_term_months": 6,
+          "rent_amount": 2365.0,
+          "deposit_amount": 710.0,
+          "special_rent_amount": null,
+          "base_rent_amount": 2365.0,
+          "amenity_rent_amount": null,
+          "rate_frequency": "monthly"
+        }
+      ]
+    },
+    {
+      "unit_space_id": 12003,
+      "property_unit_id": 22003,
+      "cid": 50002,
+      "property_id": 1062923,
+      "property_name": "The OC",
+      "unit_number": "OC-315",
+      "building_name": "Coast Building",
+      "property_floorplan_name": "The Jetty",
+      "unit_square_feet": 880,
+      "unit_of_measure_for_area": "SQ_FT",
+      "maximum_occupants": 3,
+      "maximum_pets": 2,
+      "number_of_bedrooms": 1,
+      "number_of_bathrooms": 1.0,
+      "unit_status": "Vacant Ready (Available)",
+      "available_on_date": null,
+      "rates": [
+        {
+          "lease_term_id": 3201,
+          "lease_term_months": 12,
+          "rent_amount": 2800.0,
+          "deposit_amount": 925.0,
+          "special_rent_amount": null,
+          "base_rent_amount": 2800.0,
+          "amenity_rent_amount": null,
+          "rate_frequency": "monthly"
+        },
+        {
+          "lease_term_id": 3202,
+          "lease_term_months": 6,
+          "rent_amount": 3080.0,
+          "deposit_amount": 925.0,
+          "special_rent_amount": null,
+          "base_rent_amount": 3080.0,
+          "amenity_rent_amount": null,
+          "rate_frequency": "monthly"
+        }
+      ]
+    },
+    {
+      "unit_space_id": 12004,
+      "property_unit_id": 22004,
+      "cid": 50002,
+      "property_id": 1062923,
+      "property_name": "The OC",
+      "unit_number": "OC-420",
+      "building_name": "Coast Building",
+      "property_floorplan_name": "The Swell",
+      "unit_square_feet": 1250,
+      "unit_of_measure_for_area": "SQ_FT",
+      "maximum_occupants": 4,
+      "maximum_pets": 2,
+      "number_of_bedrooms": 2,
+      "number_of_bathrooms": 2.0,
+      "unit_status": "Vacant Not Ready",
+      "available_on_date": "2026-07-15",
+      "rates": [
+        {
+          "lease_term_id": 3201,
+          "lease_term_months": 12,
+          "rent_amount": 4100.0,
+          "deposit_amount": 1350.0,
+          "special_rent_amount": null,
+          "base_rent_amount": 4100.0,
+          "amenity_rent_amount": null,
+          "rate_frequency": "monthly"
+        },
+        {
+          "lease_term_id": 3202,
+          "lease_term_months": 6,
+          "rent_amount": 4510.0,
+          "deposit_amount": 1350.0,
+          "special_rent_amount": null,
+          "base_rent_amount": 4510.0,
+          "amenity_rent_amount": null,
+          "rate_frequency": "monthly"
+        }
+      ]
+    },
+    {
+      "unit_space_id": 12005,
+      "property_unit_id": 22005,
+      "cid": 50002,
+      "property_id": 1062923,
+      "property_name": "The OC",
+      "unit_number": "OC-501",
+      "building_name": "Pacific Tower",
+      "property_floorplan_name": "The Vista",
+      "unit_square_feet": 1600,
+      "unit_of_measure_for_area": "SQ_FT",
+      "maximum_occupants": 4,
+      "maximum_pets": 2,
+      "number_of_bedrooms": 2,
+      "number_of_bathrooms": 2.0,
+      "unit_status": "Vacant Ready (Available)",
+      "available_on_date": null,
+      "rates": [
+        {
+          "lease_term_id": 3201,
+          "lease_term_months": 12,
+          "rent_amount": 4800.0,
+          "deposit_amount": 1600.0,
+          "special_rent_amount": null,
+          "base_rent_amount": 4800.0,
+          "amenity_rent_amount": null,
+          "rate_frequency": "monthly"
+        },
+        {
+          "lease_term_id": 3202,
+          "lease_term_months": 6,
+          "rent_amount": 5280.0,
+          "deposit_amount": 1600.0,
+          "special_rent_amount": null,
+          "base_rent_amount": 5280.0,
+          "amenity_rent_amount": null,
+          "rate_frequency": "monthly"
+        }
+      ]
+    },
+    {
+      "unit_space_id": 13001,
+      "property_unit_id": 23001,
+      "cid": 50003,
+      "property_id": 1062924,
+      "property_name": "London Town",
+      "unit_number": "LT-101",
+      "building_name": "Kensington House",
+      "property_floorplan_name": "The Flat",
+      "unit_square_feet": 500,
+      "unit_of_measure_for_area": "SQ_FT",
+      "maximum_occupants": 2,
+      "maximum_pets": 2,
+      "number_of_bedrooms": 0,
+      "number_of_bathrooms": 1.0,
+      "unit_status": "Vacant Ready (Available)",
+      "available_on_date": null,
+      "rates": [
+        {
+          "lease_term_id": 3301,
+          "lease_term_months": 12,
+          "rent_amount": 1800.0,
+          "deposit_amount": 600.0,
+          "special_rent_amount": null,
+          "base_rent_amount": 1800.0,
+          "amenity_rent_amount": null,
+          "rate_frequency": "monthly"
+        },
+        {
+          "lease_term_id": 3302,
+          "lease_term_months": 6,
+          "rent_amount": 1980.0,
+          "deposit_amount": 600.0,
+          "special_rent_amount": null,
+          "base_rent_amount": 1980.0,
+          "amenity_rent_amount": null,
+          "rate_frequency": "monthly"
+        }
+      ]
+    },
+    {
+      "unit_space_id": 13002,
+      "property_unit_id": 23002,
+      "cid": 50003,
+      "property_id": 1062924,
+      "property_name": "London Town",
+      "unit_number": "LT-204",
+      "building_name": "Chelsea Wing",
+      "property_floorplan_name": "The Mews",
+      "unit_square_feet": 600,
+      "unit_of_measure_for_area": "SQ_FT",
+      "maximum_occupants": 2,
+      "maximum_pets": 2,
+      "number_of_bedrooms": 0,
+      "number_of_bathrooms": 1.0,
+      "unit_status": "Vacant Ready (Available)",
+      "available_on_date": null,
+      "rates": [
+        {
+          "lease_term_id": 3301,
+          "lease_term_months": 12,
+          "rent_amount": 2000.0,
+          "deposit_amount": 660.0,
+          "special_rent_amount": null,
+          "base_rent_amount": 2000.0,
+          "amenity_rent_amount": null,
+          "rate_frequency": "monthly"
+        },
+        {
+          "lease_term_id": 3302,
+          "lease_term_months": 6,
+          "rent_amount": 2200.0,
+          "deposit_amount": 660.0,
+          "special_rent_amount": null,
+          "base_rent_amount": 2200.0,
+          "amenity_rent_amount": null,
+          "rate_frequency": "monthly"
+        }
+      ]
+    },
+    {
+      "unit_space_id": 13003,
+      "property_unit_id": 23003,
+      "cid": 50003,
+      "property_id": 1062924,
+      "property_name": "London Town",
+      "unit_number": "LT-312",
+      "building_name": "Kensington House",
+      "property_floorplan_name": "The Kensington",
+      "unit_square_feet": 780,
+      "unit_of_measure_for_area": "SQ_FT",
+      "maximum_occupants": 3,
+      "maximum_pets": 2,
+      "number_of_bedrooms": 1,
+      "number_of_bathrooms": 1.0,
+      "unit_status": "Vacant Ready (Available)",
+      "available_on_date": null,
+      "rates": [
+        {
+          "lease_term_id": 3301,
+          "lease_term_months": 12,
+          "rent_amount": 2700.0,
+          "deposit_amount": 890.0,
+          "special_rent_amount": null,
+          "base_rent_amount": 2700.0,
+          "amenity_rent_amount": null,
+          "rate_frequency": "monthly"
+        },
+        {
+          "lease_term_id": 3302,
+          "lease_term_months": 6,
+          "rent_amount": 2970.0,
+          "deposit_amount": 890.0,
+          "special_rent_amount": null,
+          "base_rent_amount": 2970.0,
+          "amenity_rent_amount": null,
+          "rate_frequency": "monthly"
+        }
+      ]
+    },
+    {
+      "unit_space_id": 13004,
+      "property_unit_id": 23004,
+      "cid": 50003,
+      "property_id": 1062924,
+      "property_name": "London Town",
+      "unit_number": "LT-405",
+      "building_name": "Chelsea Wing",
+      "property_floorplan_name": "The Westminster",
+      "unit_square_feet": 1200,
+      "unit_of_measure_for_area": "SQ_FT",
+      "maximum_occupants": 4,
+      "maximum_pets": 2,
+      "number_of_bedrooms": 2,
+      "number_of_bathrooms": 2.0,
+      "unit_status": "Vacant Not Ready",
+      "available_on_date": "2026-08-01",
+      "rates": [
+        {
+          "lease_term_id": 3301,
+          "lease_term_months": 12,
+          "rent_amount": 3900.0,
+          "deposit_amount": 1300.0,
+          "special_rent_amount": null,
+          "base_rent_amount": 3900.0,
+          "amenity_rent_amount": null,
+          "rate_frequency": "monthly"
+        },
+        {
+          "lease_term_id": 3302,
+          "lease_term_months": 6,
+          "rent_amount": 4290.0,
+          "deposit_amount": 1300.0,
+          "special_rent_amount": null,
+          "base_rent_amount": 4290.0,
+          "amenity_rent_amount": null,
+          "rate_frequency": "monthly"
+        }
+      ]
+    },
+    {
+      "unit_space_id": 13005,
+      "property_unit_id": 23005,
+      "cid": 50003,
+      "property_id": 1062924,
+      "property_name": "London Town",
+      "unit_number": "LT-501",
+      "building_name": "Kensington House",
+      "property_floorplan_name": "The Belgravia",
+      "unit_square_feet": 1750,
+      "unit_of_measure_for_area": "SQ_FT",
+      "maximum_occupants": 6,
+      "maximum_pets": 2,
+      "number_of_bedrooms": 3,
+      "number_of_bathrooms": 2.5,
+      "unit_status": "Vacant Ready (Available)",
+      "available_on_date": null,
+      "rates": [
+        {
+          "lease_term_id": 3301,
+          "lease_term_months": 12,
+          "rent_amount": 5200.0,
+          "deposit_amount": 1725.0,
+          "special_rent_amount": null,
+          "base_rent_amount": 5200.0,
+          "amenity_rent_amount": null,
+          "rate_frequency": "monthly"
+        },
+        {
+          "lease_term_id": 3302,
+          "lease_term_months": 6,
+          "rent_amount": 5720.0,
+          "deposit_amount": 1725.0,
+          "special_rent_amount": null,
+          "base_rent_amount": 5720.0,
+          "amenity_rent_amount": null,
+          "rate_frequency": "monthly"
+        }
+      ]
+    }
+  ]
+}

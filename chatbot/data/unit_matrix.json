@@ -1,0 +1,62 @@
+{
+  "data": {
+    "unit_space_id": 10009,
+    "property_id": 1062921,
+    "rent_matrix": [
+      {
+        "move_in_date": "2026-07-01",
+        "rates": [
+          {"lease_term_months": 6, "rent_amount": 2695.00},
+          {"lease_term_months": 9, "rent_amount": 2575.00},
+          {"lease_term_months": 12, "rent_amount": 2450.00},
+          {"lease_term_months": 15, "rent_amount": 2395.00}
+        ]
+      },
+      {
+        "move_in_date": "2026-07-15",
+        "rates": [
+          {"lease_term_months": 6, "rent_amount": 2695.00},
+          {"lease_term_months": 9, "rent_amount": 2575.00},
+          {"lease_term_months": 12, "rent_amount": 2450.00},
+          {"lease_term_months": 15, "rent_amount": 2395.00}
+        ]
+      },
+      {
+        "move_in_date": "2026-08-01",
+        "rates": [
+          {"lease_term_months": 6, "rent_amount": 2750.00},
+          {"lease_term_months": 9, "rent_amount": 2625.00},
+          {"lease_term_months": 12, "rent_amount": 2495.00},
+          {"lease_term_months": 15, "rent_amount": 2425.00}
+        ]
+      },
+      {
+        "move_in_date": "2026-08-15",
+        "rates": [
+          {"lease_term_months": 6, "rent_amount": 2750.00},
+          {"lease_term_months": 9, "rent_amount": 2625.00},
+          {"lease_term_months": 12, "rent_amount": 2495.00},
+          {"lease_term_months": 15, "rent_amount": 2425.00}
+        ]
+      },
+      {
+        "move_in_date": "2026-09-01",
+        "rates": [
+          {"lease_term_months": 6, "rent_amount": 2650.00},
+          {"lease_term_months": 9, "rent_amount": 2525.00},
+          {"lease_term_months": 12, "rent_amount": 2395.00},
+          {"lease_term_months": 15, "rent_amount": 2350.00}
+        ]
+      },
+      {
+        "move_in_date": "2026-09-15",
+        "rates": [
+          {"lease_term_months": 6, "rent_amount": 2650.00},
+          {"lease_term_months": 9, "rent_amount": 2525.00},
+          {"lease_term_months": 12, "rent_amount": 2395.00},
+          {"lease_term_months": 15, "rent_amount": 2350.00}
+        ]
+      }
+    ]
+  }
+}

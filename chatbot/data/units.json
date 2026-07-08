@@ -1,0 +1,44 @@
+{
+  "data": [
+    {
+      "unit_space_id": 10009,
+      "property_unit_id": 20009,
+      "cid": 50000,
+      "property_id": 1062921,
+      "property_name": "The Residences",
+      "unit_number": "B-410",
+      "building_name": "South Tower",
+      "property_floorplan_name": "The Grand",
+      "unit_square_feet": 1150,
+      "unit_of_measure_for_area": "SQ_FT",
+      "maximum_occupants": 4,
+      "maximum_pets": 2,
+      "number_of_bedrooms": 2,
+      "number_of_bathrooms": 2.0,
+      "unit_status": "Vacant Ready (Available)",
+      "available_on_date": null,
+      "rates": [
+        {
+          "lease_term_id": 3001,
+          "lease_term_months": 12,
+          "rent_amount": 2450.00,
+          "deposit_amount": 1000.00,
+          "special_rent_amount": null,
+          "base_rent_amount": 2450.00,
+          "amenity_rent_amount": null,
+          "rate_frequency": "monthly"
+        },
+        {
+          "lease_term_id": 3002,
+          "lease_term_months": 6,
+          "rent_amount": 2695.00,
+          "deposit_amount": 1000.00,
+          "special_rent_amount": null,
+          "base_rent_amount": 2695.00,
+          "amenity_rent_amount": null,
+          "rate_frequency": "monthly"
+        }
+      ]
+    }
+  ]
+}

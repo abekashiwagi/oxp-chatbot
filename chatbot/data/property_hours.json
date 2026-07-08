@@ -1,0 +1,88 @@
+{
+  "data": {
+    "1062921": {
+      "property_id": 1062921,
+      "office_hours": [
+        {"day": "Monday", "open": "09:00", "close": "18:00"},
+        {"day": "Tuesday", "open": "09:00", "close": "18:00"},
+        {"day": "Wednesday", "open": "09:00", "close": "18:00"},
+        {"day": "Thursday", "open": "09:00", "close": "18:00"},
+        {"day": "Friday", "open": "09:00", "close": "18:00"},
+        {"day": "Saturday", "open": "10:00", "close": "17:00"},
+        {"day": "Sunday", "open": "12:00", "close": "17:00"}
+      ],
+      "tour_hours": [
+        {"day": "Monday", "open": "09:00", "close": "17:30"},
+        {"day": "Tuesday", "open": "09:00", "close": "17:30"},
+        {"day": "Wednesday", "open": "09:00", "close": "17:30"},
+        {"day": "Thursday", "open": "09:00", "close": "17:30"},
+        {"day": "Friday", "open": "09:00", "close": "17:30"},
+        {"day": "Saturday", "open": "10:00", "close": "16:30"},
+        {"day": "Sunday", "open": "12:00", "close": "16:30"}
+      ]
+    },
+    "1062922": {
+      "property_id": 1062922,
+      "office_hours": [
+        {"day": "Monday", "open": "09:00", "close": "18:00"},
+        {"day": "Tuesday", "open": "09:00", "close": "18:00"},
+        {"day": "Wednesday", "open": "09:00", "close": "18:00"},
+        {"day": "Thursday", "open": "09:00", "close": "18:00"},
+        {"day": "Friday", "open": "09:00", "close": "18:00"},
+        {"day": "Saturday", "open": "09:00", "close": "17:00"},
+        {"day": "Sunday", "open": "10:00", "close": "16:00"}
+      ],
+      "tour_hours": [
+        {"day": "Monday", "open": "09:00", "close": "17:30"},
+        {"day": "Tuesday", "open": "09:00", "close": "17:30"},
+        {"day": "Wednesday", "open": "09:00", "close": "17:30"},
+        {"day": "Thursday", "open": "09:00", "close": "17:30"},
+        {"day": "Friday", "open": "09:00", "close": "17:30"},
+        {"day": "Saturday", "open": "09:00", "close": "16:30"},
+        {"day": "Sunday", "open": "10:00", "close": "15:30"}
+      ]
+    },
+    "1062923": {
+      "property_id": 1062923,
+      "office_hours": [
+        {"day": "Monday", "open": "09:00", "close": "18:00"},
+        {"day": "Tuesday", "open": "09:00", "close": "18:00"},
+        {"day": "Wednesday", "open": "09:00", "close": "18:00"},
+        {"day": "Thursday", "open": "09:00", "close": "18:00"},
+        {"day": "Friday", "open": "09:00", "close": "18:00"},
+        {"day": "Saturday", "open": "10:00", "close": "17:00"},
+        {"day": "Sunday", "open": "11:00", "close": "16:00"}
+      ],
+      "tour_hours": [
+        {"day": "Monday", "open": "09:00", "close": "17:30"},
+        {"day": "Tuesday", "open": "09:00", "close": "17:30"},
+        {"day": "Wednesday", "open": "09:00", "close": "17:30"},
+        {"day": "Thursday", "open": "09:00", "close": "17:30"},
+        {"day": "Friday", "open": "09:00", "close": "17:30"},
+        {"day": "Saturday", "open": "10:00", "close": "16:30"},
+        {"day": "Sunday", "open": "11:00", "close": "15:30"}
+      ]
+    },
+    "1062924": {
+      "property_id": 1062924,
+      "office_hours": [
+        {"day": "Monday", "open": "08:30", "close": "18:00"},
+        {"day": "Tuesday", "open": "08:30", "close": "18:00"},
+        {"day": "Wednesday", "open": "08:30", "close": "18:00"},
+        {"day": "Thursday", "open": "08:30", "close": "18:00"},
+        {"day": "Friday", "open": "08:30", "close": "18:00"},
+        {"day": "Saturday", "open": "09:00", "close": "17:00"},
+        {"day": "Sunday", "open": "10:00", "close": "16:00"}
+      ],
+      "tour_hours": [
+        {"day": "Monday", "open": "09:00", "close": "17:30"},
+        {"day": "Tuesday", "open": "09:00", "close": "17:30"},
+        {"day": "Wednesday", "open": "09:00", "close": "17:30"},
+        {"day": "Thursday", "open": "09:00", "close": "17:30"},
+        {"day": "Friday", "open": "09:00", "close": "17:30"},
+        {"day": "Saturday", "open": "09:00", "close": "16:30"},
+        {"day": "Sunday", "open": "10:00", "close": "15:30"}
+      ]
+    }
+  }
+}

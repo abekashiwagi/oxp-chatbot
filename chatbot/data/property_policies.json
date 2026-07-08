@@ -1,0 +1,132 @@
+{
+  "data": {
+    "1062921": {
+      "property_id": 1062921,
+      "pet_policy": {
+        "cats_allowed": true,
+        "dogs_allowed": true,
+        "max_pets": 2,
+        "max_weight_lbs": 75,
+        "breed_restrictions": ["Pit Bull", "Rottweiler", "Doberman Pinscher", "Wolf Hybrid"],
+        "pet_deposit": 300.00,
+        "monthly_pet_rent": 35.00,
+        "notes": "Service and emotional support animals are welcome with documentation. No exotic pets."
+      },
+      "parking_policy": {
+        "spaces_included": 1,
+        "additional_spaces_available": true,
+        "reserved_parking_monthly": 75.00,
+        "covered_parking_monthly": 100.00,
+        "guest_parking": "Available in visitor lot, 24-hour limit"
+      },
+      "lease_policy": {
+        "minimum_lease_months": 6,
+        "maximum_lease_months": 15,
+        "early_termination_fee": "Two months rent",
+        "subletting_allowed": false,
+        "renters_insurance_required": true
+      },
+      "move_in_policy": {
+        "notice_required_days": 60,
+        "move_in_hours": "Monday-Saturday 8:00 AM - 5:00 PM",
+        "elevator_reservation_required": true
+      }
+    },
+    "1062922": {
+      "property_id": 1062922,
+      "pet_policy": {
+        "cats_allowed": true,
+        "dogs_allowed": true,
+        "max_pets": 2,
+        "max_weight_lbs": 60,
+        "breed_restrictions": ["Pit Bull", "Rottweiler", "Doberman Pinscher", "Wolf Hybrid", "Akita"],
+        "pet_deposit": 400.00,
+        "monthly_pet_rent": 50.00,
+        "notes": "Service and emotional support animals are welcome with documentation. No exotic pets. Pets must be leashed in all common areas."
+      },
+      "parking_policy": {
+        "spaces_included": 1,
+        "additional_spaces_available": true,
+        "reserved_parking_monthly": 150.00,
+        "valet_parking_monthly": 250.00,
+        "guest_parking": "Valet guest parking available, complimentary for first 4 hours"
+      },
+      "lease_policy": {
+        "minimum_lease_months": 6,
+        "maximum_lease_months": 15,
+        "early_termination_fee": "Three months rent",
+        "subletting_allowed": false,
+        "renters_insurance_required": true
+      },
+      "move_in_policy": {
+        "notice_required_days": 60,
+        "move_in_hours": "Monday-Saturday 8:00 AM - 5:00 PM",
+        "elevator_reservation_required": true
+      }
+    },
+    "1062923": {
+      "property_id": 1062923,
+      "pet_policy": {
+        "cats_allowed": true,
+        "dogs_allowed": true,
+        "max_pets": 2,
+        "max_weight_lbs": 50,
+        "breed_restrictions": ["Pit Bull", "Rottweiler", "Doberman Pinscher", "Wolf Hybrid"],
+        "pet_deposit": 350.00,
+        "monthly_pet_rent": 45.00,
+        "notes": "Service and emotional support animals are welcome with documentation. No exotic pets. Outdoor pet wash station available."
+      },
+      "parking_policy": {
+        "spaces_included": 1,
+        "additional_spaces_available": true,
+        "reserved_parking_monthly": 125.00,
+        "covered_parking_monthly": 175.00,
+        "guest_parking": "Available in visitor lot, 48-hour limit"
+      },
+      "lease_policy": {
+        "minimum_lease_months": 6,
+        "maximum_lease_months": 15,
+        "early_termination_fee": "Two months rent",
+        "subletting_allowed": false,
+        "renters_insurance_required": true
+      },
+      "move_in_policy": {
+        "notice_required_days": 45,
+        "move_in_hours": "Monday-Saturday 8:00 AM - 6:00 PM",
+        "elevator_reservation_required": true
+      }
+    },
+    "1062924": {
+      "property_id": 1062924,
+      "pet_policy": {
+        "cats_allowed": true,
+        "dogs_allowed": true,
+        "max_pets": 2,
+        "max_weight_lbs": 50,
+        "breed_restrictions": ["Pit Bull", "Rottweiler", "Doberman Pinscher", "Wolf Hybrid"],
+        "pet_deposit": 350.00,
+        "monthly_pet_rent": 40.00,
+        "notes": "Service and emotional support animals are welcome with documentation. No exotic pets. Dog walking service available through concierge."
+      },
+      "parking_policy": {
+        "spaces_included": 0,
+        "additional_spaces_available": true,
+        "underground_parking_monthly": 200.00,
+        "surface_lot_monthly": 125.00,
+        "guest_parking": "Street parking and nearby public garages; doorman can assist with directions"
+      },
+      "lease_policy": {
+        "minimum_lease_months": 6,
+        "maximum_lease_months": 15,
+        "early_termination_fee": "Two months rent",
+        "subletting_allowed": false,
+        "renters_insurance_required": true
+      },
+      "move_in_policy": {
+        "notice_required_days": 60,
+        "move_in_hours": "Monday-Saturday 8:00 AM - 5:00 PM",
+        "elevator_reservation_required": true
+      }
+    }
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "data": {
+    "1062921": {
+      "community": [
+        {"id": 5001, "name": "Resort-Style Pool", "category": "Recreation", "description": "Heated rooftop pool with mountain views and sun deck"},
+        {"id": 5002, "name": "State-of-the-Art Fitness Center", "category": "Fitness", "description": "24/7 gym with cardio, free weights, and Peloton bikes"},
+        {"id": 5003, "name": "Co-Working Lounge", "category": "Business", "description": "Shared workspace with private meeting rooms and high-speed WiFi"},
+        {"id": 5004, "name": "Dog Park", "category": "Pet", "description": "Fenced off-leash dog park with agility equipment and wash station"},
+        {"id": 5005, "name": "24/7 Package Lockers", "category": "Convenience", "description": "Smart package lockers with automated delivery notifications"},
+        {"id": 5006, "name": "Rooftop Lounge", "category": "Social", "description": "Sky lounge with outdoor seating, fire pit, and panoramic mountain views"},
+        {"id": 5007, "name": "EV Charging Stations", "category": "Parking", "description": "Level 2 electric vehicle chargers in parking garage"},
+        {"id": 5008, "name": "Bike Storage", "category": "Convenience", "description": "Secure indoor bike storage with repair station"},
+        {"id": 5009, "name": "Concierge Service", "category": "Service", "description": "On-site concierge for deliveries, dry cleaning, and reservations"},
+        {"id": 5010, "name": "Fire Pit Courtyard", "category": "Social", "description": "Ground-level courtyard with fire pit, seating, and BBQ grills"},
+        {"id": 5011, "name": "Yoga Studio", "category": "Fitness", "description": "Dedicated studio for yoga, meditation, and virtual fitness classes"},
+        {"id": 5012, "name": "Game Room", "category": "Social", "description": "Lounge with billiards, shuffleboard, and big-screen TVs"},
+        {"id": 5013, "name": "Pet Spa", "category": "Pet", "description": "Professional pet grooming station with tubs and blow dryers"},
+        {"id": 5014, "name": "Resident Clubhouse", "category": "Social", "description": "Private event space with catering kitchen for parties and gatherings"},
+        {"id": 5015, "name": "Controlled Access Entry", "category": "Security", "description": "Gated community with key-fob entry and video intercom"}
+      ],
+      "unit": [
+        {"id": 5050, "name": "In-Unit Washer/Dryer", "category": "Convenience"},
+        {"id": 5051, "name": "Quartz Countertops", "category": "Kitchen"},
+        {"id": 5052, "name": "Stainless Steel Appliances", "category": "Kitchen"},
+        {"id": 5053, "name": "Luxury Vinyl Plank Flooring", "category": "Interior"},
+        {"id": 5054, "name": "Walk-In Closets", "category": "Storage"},
+        {"id": 5055, "name": "Ceiling Fans", "category": "Comfort"},
+        {"id": 5056, "name": "Private Patio/Balcony", "category": "Outdoor"},
+        {"id": 5057, "name": "USB Charging Outlets", "category": "Technology"},
+        {"id": 5058, "name": "Smart Thermostat", "category": "Technology"},
+        {"id": 5059, "name": "Floor-to-Ceiling Windows", "category": "Interior"}
+      ]
+    },
+    "1062922": {
+      "community": [
+        {"id": 5101, "name": "Private Beach Access", "category": "Recreation", "description": "Direct pathway to private stretch of Southampton beach"},
+        {"id": 5102, "name": "Tennis Courts", "category": "Recreation", "description": "Two professionally maintained Har-Tru clay courts with lighting"},
+        {"id": 5103, "name": "Heated Outdoor Pool", "category": "Recreation", "description": "Resort-style heated pool with cabanas and poolside service"},
+        {"id": 5104, "name": "Concierge Service", "category": "Service", "description": "Full-time concierge for dinner reservations, car service, and errands"},
+        {"id": 5105, "name": "Outdoor BBQ Pavilion", "category": "Social", "description": "Covered pavilion with Viking grills and outdoor dining for 30"},
+        {"id": 5106, "name": "Beach Club", "category": "Recreation", "description": "Members-only beach club with showers, towel service, and refreshments"},
+        {"id": 5107, "name": "Dog Run", "category": "Pet", "description": "Fenced oceanside dog run with agility course and rinse station"},
+        {"id": 5108, "name": "Valet Parking", "category": "Parking", "description": "24/7 valet parking with covered garage"},
+        {"id": 5109, "name": "Resident Lounge", "category": "Social", "description": "Elegant lounge with fireplace, library wall, and espresso bar"},
+        {"id": 5110, "name": "Wine Cellar", "category": "Social", "description": "Temperature-controlled wine cellar with private lockers and tasting room"},
+        {"id": 5111, "name": "Guest Suites", "category": "Convenience", "description": "Two furnished guest suites available for resident booking"}
+      ],
+      "unit": [
+        {"id": 5150, "name": "Marble Countertops", "category": "Kitchen"},
+        {"id": 5151, "name": "Hardwood Floors", "category": "Interior"},
+        {"id": 5152, "name": "Gas Fireplace", "category": "Comfort"},
+        {"id": 5153, "name": "Soaking Tub", "category": "Bathroom"},
+        {"id": 5154, "name": "Chef's Kitchen", "category": "Kitchen"},
+        {"id": 5155, "name": "Smart Home System", "category": "Technology"},
+        {"id": 5156, "name": "Crown Molding", "category": "Interior"},
+        {"id": 5157, "name": "Wine Fridge", "category": "Kitchen"}
+      ]
+    },
+    "1062923": {
+      "community": [
+        {"id": 5201, "name": "Rooftop Terrace", "category": "Social", "description": "Panoramic ocean-view terrace with lounge seating and fire features"},
+        {"id": 5202, "name": "Surf Storage", "category": "Convenience", "description": "Climate-controlled surfboard and paddleboard storage room"},
+        {"id": 5203, "name": "EV Charging", "category": "Parking", "description": "Tesla Superchargers and universal Level 2 stations in garage"},
+        {"id": 5204, "name": "Ocean-View Gym", "category": "Fitness", "description": "Floor-to-ceiling glass gym overlooking the Pacific with Tonal mirrors"},
+        {"id": 5205, "name": "Infinity Pool", "category": "Recreation", "description": "Rooftop infinity-edge pool with ocean views and heated spa"},
+        {"id": 5206, "name": "Outdoor Yoga Deck", "category": "Fitness", "description": "Oceanfront yoga and meditation deck with weekly instructor-led classes"},
+        {"id": 5207, "name": "Coffee Bar", "category": "Social", "description": "Resident coffee bar with complimentary espresso, cold brew, and pastries"},
+        {"id": 5208, "name": "Bike Share Station", "category": "Convenience", "description": "Complimentary beach cruiser and e-bike checkout program"},
+        {"id": 5209, "name": "Fire Pit Lounge", "category": "Social", "description": "Ground-floor fire pit with built-in seating and sunset views"},
+        {"id": 5210, "name": "Beach Gear Checkout", "category": "Convenience", "description": "Complimentary beach chairs, umbrellas, coolers, and boogie boards"}
+      ],
+      "unit": [
+        {"id": 5250, "name": "Quartz Waterfall Counters", "category": "Kitchen"},
+        {"id": 5251, "name": "Wide-Plank Oak Floors", "category": "Interior"},
+        {"id": 5252, "name": "Floor-to-Ceiling Sliders", "category": "Interior"},
+        {"id": 5253, "name": "Smart Locks", "category": "Technology"},
+        {"id": 5254, "name": "Rain Shower", "category": "Bathroom"},
+        {"id": 5255, "name": "Built-in Surfboard Racks", "category": "Storage"},
+        {"id": 5256, "name": "Nest Thermostat", "category": "Technology"},
+        {"id": 5257, "name": "USB-C Outlets", "category": "Technology"}
+      ]
+    },
+    "1062924": {
+      "community": [
+        {"id": 5301, "name": "Library Lounge", "category": "Business", "description": "Two-story library with leather armchairs, curated collection, and study nooks"},
+        {"id": 5302, "name": "Rooftop Garden", "category": "Social", "description": "Landscaped rooftop with herb garden, seating areas, and city views"},
+        {"id": 5303, "name": "On-Site Pub (The Crown & Kettle)", "category": "Social", "description": "British-style gastropub with craft beer, weekend brunch, and pub quiz nights"},
+        {"id": 5304, "name": "Bike Storage", "category": "Convenience", "description": "Secure indoor bike storage with maintenance station and air pumps"},
+        {"id": 5305, "name": "Doorman Service", "category": "Service", "description": "24/7 uniformed doorman for packages, guests, and concierge requests"},
+        {"id": 5306, "name": "Courtyard Garden", "category": "Social", "description": "English-style courtyard garden with fountain, benches, and seasonal plantings"},
+        {"id": 5307, "name": "Tea Room", "category": "Social", "description": "Afternoon tea service with complimentary loose-leaf teas and biscuits"},
+        {"id": 5308, "name": "Underground Parking", "category": "Parking", "description": "Heated underground parking garage with assigned spaces"},
+        {"id": 5309, "name": "Fitness Studio", "category": "Fitness", "description": "Boutique fitness studio with Peloton, free weights, and TRX"},
+        {"id": 5310, "name": "Cinema Room", "category": "Social", "description": "Private 20-seat cinema with 4K projector and surround sound"}
+      ],
+      "unit": [
+        {"id": 5350, "name": "Herringbone Hardwood", "category": "Interior"},
+        {"id": 5351, "name": "Belfast Sink", "category": "Kitchen"},
+        {"id": 5352, "name": "Built-in Bookshelves", "category": "Storage"},
+        {"id": 5353, "name": "Heated Bathroom Floors", "category": "Bathroom"},
+        {"id": 5354, "name": "Gas Range", "category": "Kitchen"},
+        {"id": 5355, "name": "Crown Molding", "category": "Interior"},
+        {"id": 5356, "name": "Bay Windows", "category": "Interior"},
+        {"id": 5357, "name": "Keyless Entry", "category": "Technology"}
+      ]
+    }
+  }
+}

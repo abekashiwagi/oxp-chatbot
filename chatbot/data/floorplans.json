@@ -1,0 +1,732 @@
+{
+  "data": [
+    {
+      "cid": 50000,
+      "property_id": 1062921,
+      "floorplan_id": 4001,
+      "floorplan_name": "The Studio A",
+      "number_of_bedrooms": 0,
+      "number_of_bathrooms": 1.0,
+      "minimum_square_feet": 650,
+      "maximum_square_feet": 650,
+      "minimum_rent": 1450.00,
+      "maximum_rent": 1450.00,
+      "minimum_deposit": 500.00,
+      "maximum_deposit": 500.00,
+      "show_on_web_site": 1,
+      "units_available": 3,
+      "media": [
+        {
+          "id": 8001,
+          "media_type": "image",
+          "title": "Studio A Floor Plan",
+          "alternate_text": "Studio A layout - 650 sq ft open concept",
+          "image_default": true,
+          "image_url": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=600&q=80"
+        }
+      ]
+    },
+    {
+      "cid": 50000,
+      "property_id": 1062921,
+      "floorplan_id": 4002,
+      "floorplan_name": "The Studio B",
+      "number_of_bedrooms": 0,
+      "number_of_bathrooms": 1.0,
+      "minimum_square_feet": 720,
+      "maximum_square_feet": 720,
+      "minimum_rent": 1550.00,
+      "maximum_rent": 1550.00,
+      "minimum_deposit": 500.00,
+      "maximum_deposit": 500.00,
+      "show_on_web_site": 1,
+      "units_available": 2,
+      "media": [
+        {
+          "id": 8002,
+          "media_type": "image",
+          "title": "Studio B Floor Plan",
+          "alternate_text": "Studio B layout - 720 sq ft with alcove",
+          "image_default": true,
+          "image_url": "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=600&q=80"
+        }
+      ]
+    },
+    {
+      "cid": 50000,
+      "property_id": 1062921,
+      "floorplan_id": 4003,
+      "floorplan_name": "The Classic",
+      "number_of_bedrooms": 1,
+      "number_of_bathrooms": 1.0,
+      "minimum_square_feet": 825,
+      "maximum_square_feet": 825,
+      "minimum_rent": 1850.00,
+      "maximum_rent": 1850.00,
+      "minimum_deposit": 750.00,
+      "maximum_deposit": 750.00,
+      "show_on_web_site": 1,
+      "units_available": 4,
+      "media": [
+        {
+          "id": 8003,
+          "media_type": "image",
+          "title": "The Classic Floor Plan",
+          "alternate_text": "One bedroom layout - 825 sq ft",
+          "image_default": true,
+          "image_url": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=600&q=80"
+        }
+      ]
+    },
+    {
+      "cid": 50000,
+      "property_id": 1062921,
+      "floorplan_id": 4004,
+      "floorplan_name": "The Modern",
+      "number_of_bedrooms": 1.5,
+      "number_of_bathrooms": 1.0,
+      "minimum_square_feet": 900,
+      "maximum_square_feet": 900,
+      "minimum_rent": 1950.00,
+      "maximum_rent": 1950.00,
+      "minimum_deposit": 750.00,
+      "maximum_deposit": 750.00,
+      "show_on_web_site": 1,
+      "units_available": 2,
+      "media": [
+        {
+          "id": 8004,
+          "media_type": "image",
+          "title": "The Modern Floor Plan",
+          "alternate_text": "One bedroom plus den layout - 900 sq ft",
+          "image_default": true,
+          "image_url": "https://images.unsplash.com/photo-1493809842364-78817add7ffb?w=600&q=80"
+        }
+      ]
+    },
+    {
+      "cid": 50000,
+      "property_id": 1062921,
+      "floorplan_id": 4005,
+      "floorplan_name": "The Grand",
+      "number_of_bedrooms": 2,
+      "number_of_bathrooms": 2.0,
+      "minimum_square_feet": 1150,
+      "maximum_square_feet": 1150,
+      "minimum_rent": 2450.00,
+      "maximum_rent": 2450.00,
+      "minimum_deposit": 1000.00,
+      "maximum_deposit": 1000.00,
+      "show_on_web_site": 1,
+      "units_available": 3,
+      "media": [
+        {
+          "id": 8005,
+          "media_type": "image",
+          "title": "The Grand Floor Plan",
+          "alternate_text": "Two bedroom two bath layout - 1150 sq ft",
+          "image_default": true,
+          "image_url": "https://images.unsplash.com/photo-1484154218962-a197022b5858?w=600&q=80"
+        }
+      ]
+    },
+    {
+      "cid": 50000,
+      "property_id": 1062921,
+      "floorplan_id": 4006,
+      "floorplan_name": "The Terrace",
+      "number_of_bedrooms": 2,
+      "number_of_bathrooms": 2.0,
+      "minimum_square_feet": 1250,
+      "maximum_square_feet": 1250,
+      "minimum_rent": 2650.00,
+      "maximum_rent": 2650.00,
+      "minimum_deposit": 1000.00,
+      "maximum_deposit": 1000.00,
+      "show_on_web_site": 1,
+      "units_available": 1,
+      "media": [
+        {
+          "id": 8006,
+          "media_type": "image",
+          "title": "The Terrace Floor Plan",
+          "alternate_text": "Two bedroom with balcony layout - 1250 sq ft",
+          "image_default": true,
+          "image_url": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=600&q=80"
+        }
+      ]
+    },
+    {
+      "cid": 50000,
+      "property_id": 1062921,
+      "floorplan_id": 4007,
+      "floorplan_name": "The Penthouse",
+      "number_of_bedrooms": 3,
+      "number_of_bathrooms": 2.5,
+      "minimum_square_feet": 1600,
+      "maximum_square_feet": 1600,
+      "minimum_rent": 3450.00,
+      "maximum_rent": 3450.00,
+      "minimum_deposit": 1500.00,
+      "maximum_deposit": 1500.00,
+      "show_on_web_site": 1,
+      "units_available": 1,
+      "media": [
+        {
+          "id": 8007,
+          "media_type": "image",
+          "title": "The Penthouse Floor Plan",
+          "alternate_text": "Three bedroom penthouse layout - 1600 sq ft",
+          "image_default": true,
+          "image_url": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=600&q=80"
+        }
+      ]
+    },
+    {
+      "cid": 50000,
+      "property_id": 1062921,
+      "floorplan_id": 4008,
+      "floorplan_name": "The Estate",
+      "number_of_bedrooms": 3,
+      "number_of_bathrooms": 2.5,
+      "minimum_square_feet": 1850,
+      "maximum_square_feet": 1850,
+      "minimum_rent": 3950.00,
+      "maximum_rent": 3950.00,
+      "minimum_deposit": 1500.00,
+      "maximum_deposit": 1500.00,
+      "show_on_web_site": 1,
+      "units_available": 1,
+      "media": [
+        {
+          "id": 8008,
+          "media_type": "image",
+          "title": "The Estate Floor Plan",
+          "alternate_text": "Three bedroom with terrace layout - 1850 sq ft",
+          "image_default": true,
+          "image_url": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=600&q=80"
+        }
+      ]
+    },
+    {
+      "cid": 50001,
+      "property_id": 1062922,
+      "floorplan_id": 4101,
+      "floorplan_name": "The Cottage",
+      "number_of_bedrooms": 0,
+      "number_of_bathrooms": 1.0,
+      "minimum_square_feet": 580,
+      "maximum_square_feet": 580,
+      "minimum_rent": 2100.00,
+      "maximum_rent": 2100.00,
+      "minimum_deposit": 700.00,
+      "maximum_deposit": 700.00,
+      "show_on_web_site": 1,
+      "units_available": 4,
+      "media": [
+        {
+          "id": 8101,
+          "media_type": "image",
+          "title": "The Cottage Floor Plan",
+          "alternate_text": "Studio cottage layout - 580 sq ft",
+          "image_default": true,
+          "image_url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=600&q=80"
+        }
+      ]
+    },
+    {
+      "cid": 50001,
+      "property_id": 1062922,
+      "floorplan_id": 4102,
+      "floorplan_name": "The Bungalow",
+      "number_of_bedrooms": 0,
+      "number_of_bathrooms": 1.0,
+      "minimum_square_feet": 650,
+      "maximum_square_feet": 650,
+      "minimum_rent": 2350.00,
+      "maximum_rent": 2350.00,
+      "minimum_deposit": 775.00,
+      "maximum_deposit": 775.00,
+      "show_on_web_site": 1,
+      "units_available": 3,
+      "media": [
+        {
+          "id": 8102,
+          "media_type": "image",
+          "title": "The Bungalow Floor Plan",
+          "alternate_text": "Studio bungalow layout - 650 sq ft",
+          "image_default": true,
+          "image_url": "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=600&q=80"
+        }
+      ]
+    },
+    {
+      "cid": 50001,
+      "property_id": 1062922,
+      "floorplan_id": 4103,
+      "floorplan_name": "The Cape",
+      "number_of_bedrooms": 1,
+      "number_of_bathrooms": 1.0,
+      "minimum_square_feet": 850,
+      "maximum_square_feet": 850,
+      "minimum_rent": 3100.00,
+      "maximum_rent": 3100.00,
+      "minimum_deposit": 1025.00,
+      "maximum_deposit": 1025.00,
+      "show_on_web_site": 1,
+      "units_available": 5,
+      "media": [
+        {
+          "id": 8103,
+          "media_type": "image",
+          "title": "The Cape Floor Plan",
+          "alternate_text": "One bedroom cape layout - 850 sq ft",
+          "image_default": true,
+          "image_url": "https://images.unsplash.com/photo-1600573472550-8090b5e0745e?w=600&q=80"
+        }
+      ]
+    },
+    {
+      "cid": 50001,
+      "property_id": 1062922,
+      "floorplan_id": 4104,
+      "floorplan_name": "The Shore",
+      "number_of_bedrooms": 1,
+      "number_of_bathrooms": 1.0,
+      "minimum_square_feet": 950,
+      "maximum_square_feet": 950,
+      "minimum_rent": 3500.00,
+      "maximum_rent": 3500.00,
+      "minimum_deposit": 1150.00,
+      "maximum_deposit": 1150.00,
+      "show_on_web_site": 1,
+      "units_available": 3,
+      "media": [
+        {
+          "id": 8104,
+          "media_type": "image",
+          "title": "The Shore Floor Plan",
+          "alternate_text": "One bedroom shore layout - 950 sq ft",
+          "image_default": true,
+          "image_url": "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=600&q=80"
+        }
+      ]
+    },
+    {
+      "cid": 50001,
+      "property_id": 1062922,
+      "floorplan_id": 4105,
+      "floorplan_name": "The Breakers",
+      "number_of_bedrooms": 2,
+      "number_of_bathrooms": 2.0,
+      "minimum_square_feet": 1300,
+      "maximum_square_feet": 1300,
+      "minimum_rent": 4600.00,
+      "maximum_rent": 4600.00,
+      "minimum_deposit": 1525.00,
+      "maximum_deposit": 1525.00,
+      "show_on_web_site": 1,
+      "units_available": 2,
+      "media": [
+        {
+          "id": 8105,
+          "media_type": "image",
+          "title": "The Breakers Floor Plan",
+          "alternate_text": "Two bedroom breakers layout - 1300 sq ft",
+          "image_default": true,
+          "image_url": "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=600&q=80"
+        }
+      ]
+    },
+    {
+      "cid": 50001,
+      "property_id": 1062922,
+      "floorplan_id": 4106,
+      "floorplan_name": "The Dunes",
+      "number_of_bedrooms": 2,
+      "number_of_bathrooms": 2.0,
+      "minimum_square_feet": 1500,
+      "maximum_square_feet": 1500,
+      "minimum_rent": 5200.00,
+      "maximum_rent": 5200.00,
+      "minimum_deposit": 1725.00,
+      "maximum_deposit": 1725.00,
+      "show_on_web_site": 1,
+      "units_available": 2,
+      "media": [
+        {
+          "id": 8106,
+          "media_type": "image",
+          "title": "The Dunes Floor Plan",
+          "alternate_text": "Two bedroom dunes layout - 1500 sq ft",
+          "image_default": true,
+          "image_url": "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=600&q=80"
+        }
+      ]
+    },
+    {
+      "cid": 50001,
+      "property_id": 1062922,
+      "floorplan_id": 4107,
+      "floorplan_name": "The Estate",
+      "number_of_bedrooms": 3,
+      "number_of_bathrooms": 2.5,
+      "minimum_square_feet": 2100,
+      "maximum_square_feet": 2100,
+      "minimum_rent": 6500.00,
+      "maximum_rent": 6500.00,
+      "minimum_deposit": 2150.00,
+      "maximum_deposit": 2150.00,
+      "show_on_web_site": 1,
+      "units_available": 1,
+      "media": [
+        {
+          "id": 8107,
+          "media_type": "image",
+          "title": "The Estate Floor Plan",
+          "alternate_text": "Three bedroom estate layout - 2100 sq ft",
+          "image_default": true,
+          "image_url": "https://images.unsplash.com/photo-1600607687644-aac4c3eac7f4?w=600&q=80"
+        }
+      ]
+    },
+    {
+      "cid": 50002,
+      "property_id": 1062923,
+      "floorplan_id": 4201,
+      "floorplan_name": "The Cove",
+      "number_of_bedrooms": 0,
+      "number_of_bathrooms": 1.0,
+      "minimum_square_feet": 620,
+      "maximum_square_feet": 620,
+      "minimum_rent": 1950.00,
+      "maximum_rent": 1950.00,
+      "minimum_deposit": 650.00,
+      "maximum_deposit": 650.00,
+      "show_on_web_site": 1,
+      "units_available": 3,
+      "media": [
+        {
+          "id": 8201,
+          "media_type": "image",
+          "title": "The Cove Floor Plan",
+          "alternate_text": "Studio cove layout - 620 sq ft",
+          "image_default": true,
+          "image_url": "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=600&q=80"
+        }
+      ]
+    },
+    {
+      "cid": 50002,
+      "property_id": 1062923,
+      "floorplan_id": 4202,
+      "floorplan_name": "The Pier",
+      "number_of_bedrooms": 0,
+      "number_of_bathrooms": 1.0,
+      "minimum_square_feet": 700,
+      "maximum_square_feet": 700,
+      "minimum_rent": 2150.00,
+      "maximum_rent": 2150.00,
+      "minimum_deposit": 710.00,
+      "maximum_deposit": 710.00,
+      "show_on_web_site": 1,
+      "units_available": 2,
+      "media": [
+        {
+          "id": 8202,
+          "media_type": "image",
+          "title": "The Pier Floor Plan",
+          "alternate_text": "Studio pier layout - 700 sq ft",
+          "image_default": true,
+          "image_url": "https://images.unsplash.com/photo-1600585152220-90363fe7e115?w=600&q=80"
+        }
+      ]
+    },
+    {
+      "cid": 50002,
+      "property_id": 1062923,
+      "floorplan_id": 4203,
+      "floorplan_name": "The Jetty",
+      "number_of_bedrooms": 1,
+      "number_of_bathrooms": 1.0,
+      "minimum_square_feet": 880,
+      "maximum_square_feet": 880,
+      "minimum_rent": 2800.00,
+      "maximum_rent": 2800.00,
+      "minimum_deposit": 925.00,
+      "maximum_deposit": 925.00,
+      "show_on_web_site": 1,
+      "units_available": 4,
+      "media": [
+        {
+          "id": 8203,
+          "media_type": "image",
+          "title": "The Jetty Floor Plan",
+          "alternate_text": "One bedroom jetty layout - 880 sq ft",
+          "image_default": true,
+          "image_url": "https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=600&q=80"
+        }
+      ]
+    },
+    {
+      "cid": 50002,
+      "property_id": 1062923,
+      "floorplan_id": 4204,
+      "floorplan_name": "The Pacific",
+      "number_of_bedrooms": 1,
+      "number_of_bathrooms": 1.0,
+      "minimum_square_feet": 1000,
+      "maximum_square_feet": 1000,
+      "minimum_rent": 3200.00,
+      "maximum_rent": 3200.00,
+      "minimum_deposit": 1050.00,
+      "maximum_deposit": 1050.00,
+      "show_on_web_site": 1,
+      "units_available": 3,
+      "media": [
+        {
+          "id": 8204,
+          "media_type": "image",
+          "title": "The Pacific Floor Plan",
+          "alternate_text": "One bedroom pacific layout - 1000 sq ft",
+          "image_default": true,
+          "image_url": "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=600&q=80"
+        }
+      ]
+    },
+    {
+      "cid": 50002,
+      "property_id": 1062923,
+      "floorplan_id": 4205,
+      "floorplan_name": "The Swell",
+      "number_of_bedrooms": 2,
+      "number_of_bathrooms": 2.0,
+      "minimum_square_feet": 1250,
+      "maximum_square_feet": 1250,
+      "minimum_rent": 4100.00,
+      "maximum_rent": 4100.00,
+      "minimum_deposit": 1350.00,
+      "maximum_deposit": 1350.00,
+      "show_on_web_site": 1,
+      "units_available": 2,
+      "media": [
+        {
+          "id": 8205,
+          "media_type": "image",
+          "title": "The Swell Floor Plan",
+          "alternate_text": "Two bedroom swell layout - 1250 sq ft",
+          "image_default": true,
+          "image_url": "https://images.unsplash.com/photo-1600563438938-a9a27215b4b7?w=600&q=80"
+        }
+      ]
+    },
+    {
+      "cid": 50002,
+      "property_id": 1062923,
+      "floorplan_id": 4206,
+      "floorplan_name": "The Vista",
+      "number_of_bedrooms": 2,
+      "number_of_bathrooms": 2.0,
+      "minimum_square_feet": 1600,
+      "maximum_square_feet": 1600,
+      "minimum_rent": 4800.00,
+      "maximum_rent": 4800.00,
+      "minimum_deposit": 1600.00,
+      "maximum_deposit": 1600.00,
+      "show_on_web_site": 1,
+      "units_available": 1,
+      "media": [
+        {
+          "id": 8206,
+          "media_type": "image",
+          "title": "The Vista Floor Plan",
+          "alternate_text": "Two bedroom vista layout - 1600 sq ft",
+          "image_default": true,
+          "image_url": "https://images.unsplash.com/photo-1600607688969-a5bfcd646154?w=600&q=80"
+        }
+      ]
+    },
+    {
+      "cid": 50003,
+      "property_id": 1062924,
+      "floorplan_id": 4301,
+      "floorplan_name": "The Flat",
+      "number_of_bedrooms": 0,
+      "number_of_bathrooms": 1.0,
+      "minimum_square_feet": 500,
+      "maximum_square_feet": 500,
+      "minimum_rent": 1800.00,
+      "maximum_rent": 1800.00,
+      "minimum_deposit": 600.00,
+      "maximum_deposit": 600.00,
+      "show_on_web_site": 1,
+      "units_available": 5,
+      "media": [
+        {
+          "id": 8301,
+          "media_type": "image",
+          "title": "The Flat Floor Plan",
+          "alternate_text": "Studio flat layout - 500 sq ft",
+          "image_default": true,
+          "image_url": "https://images.unsplash.com/photo-1600585154363-67eb9e2e2099?w=600&q=80"
+        }
+      ]
+    },
+    {
+      "cid": 50003,
+      "property_id": 1062924,
+      "floorplan_id": 4302,
+      "floorplan_name": "The Mews",
+      "number_of_bedrooms": 0,
+      "number_of_bathrooms": 1.0,
+      "minimum_square_feet": 600,
+      "maximum_square_feet": 600,
+      "minimum_rent": 2000.00,
+      "maximum_rent": 2000.00,
+      "minimum_deposit": 660.00,
+      "maximum_deposit": 660.00,
+      "show_on_web_site": 1,
+      "units_available": 3,
+      "media": [
+        {
+          "id": 8302,
+          "media_type": "image",
+          "title": "The Mews Floor Plan",
+          "alternate_text": "Studio mews layout - 600 sq ft",
+          "image_default": true,
+          "image_url": "https://images.unsplash.com/photo-1600566753151-384129cf4e3e?w=600&q=80"
+        }
+      ]
+    },
+    {
+      "cid": 50003,
+      "property_id": 1062924,
+      "floorplan_id": 4303,
+      "floorplan_name": "The Kensington",
+      "number_of_bedrooms": 1,
+      "number_of_bathrooms": 1.0,
+      "minimum_square_feet": 780,
+      "maximum_square_feet": 780,
+      "minimum_rent": 2700.00,
+      "maximum_rent": 2700.00,
+      "minimum_deposit": 890.00,
+      "maximum_deposit": 890.00,
+      "show_on_web_site": 1,
+      "units_available": 4,
+      "media": [
+        {
+          "id": 8303,
+          "media_type": "image",
+          "title": "The Kensington Floor Plan",
+          "alternate_text": "One bedroom Kensington layout - 780 sq ft",
+          "image_default": true,
+          "image_url": "https://images.unsplash.com/photo-1600210491892-03d54c0aaf87?w=600&q=80"
+        }
+      ]
+    },
+    {
+      "cid": 50003,
+      "property_id": 1062924,
+      "floorplan_id": 4304,
+      "floorplan_name": "The Chelsea",
+      "number_of_bedrooms": 1,
+      "number_of_bathrooms": 1.0,
+      "minimum_square_feet": 900,
+      "maximum_square_feet": 900,
+      "minimum_rent": 3100.00,
+      "maximum_rent": 3100.00,
+      "minimum_deposit": 1025.00,
+      "maximum_deposit": 1025.00,
+      "show_on_web_site": 1,
+      "units_available": 3,
+      "media": [
+        {
+          "id": 8304,
+          "media_type": "image",
+          "title": "The Chelsea Floor Plan",
+          "alternate_text": "One bedroom Chelsea layout - 900 sq ft",
+          "image_default": true,
+          "image_url": "https://images.unsplash.com/photo-1600573472591-ee6b68d14c68?w=600&q=80"
+        }
+      ]
+    },
+    {
+      "cid": 50003,
+      "property_id": 1062924,
+      "floorplan_id": 4305,
+      "floorplan_name": "The Westminster",
+      "number_of_bedrooms": 2,
+      "number_of_bathrooms": 2.0,
+      "minimum_square_feet": 1200,
+      "maximum_square_feet": 1200,
+      "minimum_rent": 3900.00,
+      "maximum_rent": 3900.00,
+      "minimum_deposit": 1300.00,
+      "maximum_deposit": 1300.00,
+      "show_on_web_site": 1,
+      "units_available": 2,
+      "media": [
+        {
+          "id": 8305,
+          "media_type": "image",
+          "title": "The Westminster Floor Plan",
+          "alternate_text": "Two bedroom Westminster layout - 1200 sq ft",
+          "image_default": true,
+          "image_url": "https://images.unsplash.com/photo-1600607687644-aac4c3eac7f4?w=600&q=80"
+        }
+      ]
+    },
+    {
+      "cid": 50003,
+      "property_id": 1062924,
+      "floorplan_id": 4306,
+      "floorplan_name": "The Mayfair",
+      "number_of_bedrooms": 2,
+      "number_of_bathrooms": 2.0,
+      "minimum_square_feet": 1400,
+      "maximum_square_feet": 1400,
+      "minimum_rent": 4500.00,
+      "maximum_rent": 4500.00,
+      "minimum_deposit": 1500.00,
+      "maximum_deposit": 1500.00,
+      "show_on_web_site": 1,
+      "units_available": 1,
+      "media": [
+        {
+          "id": 8306,
+          "media_type": "image",
+          "title": "The Mayfair Floor Plan",
+          "alternate_text": "Two bedroom Mayfair layout - 1400 sq ft",
+          "image_default": true,
+          "image_url": "https://images.unsplash.com/photo-1600566752229-250ed79470f8?w=600&q=80"
+        }
+      ]
+    },
+    {
+      "cid": 50003,
+      "property_id": 1062924,
+      "floorplan_id": 4307,
+      "floorplan_name": "The Belgravia",
+      "number_of_bedrooms": 3,
+      "number_of_bathrooms": 2.5,
+      "minimum_square_feet": 1750,
+      "maximum_square_feet": 1750,
+      "minimum_rent": 5200.00,
+      "maximum_rent": 5200.00,
+      "minimum_deposit": 1725.00,
+      "maximum_deposit": 1725.00,
+      "show_on_web_site": 1,
+      "units_available": 1,
+      "media": [
+        {
+          "id": 8307,
+          "media_type": "image",
+          "title": "The Belgravia Floor Plan",
+          "alternate_text": "Three bedroom Belgravia layout - 1750 sq ft",
+          "image_default": true,
+          "image_url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=600&q=80"
+        }
+      ]
+    }
+  ]
+}

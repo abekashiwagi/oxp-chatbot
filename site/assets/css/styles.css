@@ -1,0 +1,48 @@
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 6rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+::selection {
+  background-color: #0F766E;
+  color: white;
+}
+
+input::-webkit-date-and-time-value {
+  text-align: left;
+}
+
+.unit-card {
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.unit-card.hidden-filtered {
+  display: none;
+}
+
+.filter-btn.active {
+  background-color: #18181B;
+  color: white;
+  border-color: #18181B;
+}
+
+.app-option {
+  transition: border-color 0.2s ease, background-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.step-content {
+  animation: fadeIn 0.25s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}

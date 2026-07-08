@@ -1,0 +1,92 @@
+{
+  "data": {
+    "1062921": [
+      {
+        "id": 7001,
+        "address_type": "physical",
+        "address_line_1": "1200 Summit Avenue",
+        "address_line_2": null,
+        "city": "Salt Lake City",
+        "state": "UT",
+        "zip": "84101",
+        "country": "US"
+      },
+      {
+        "id": 7002,
+        "address_type": "mailing",
+        "address_line_1": "1200 Summit Avenue, Suite 100",
+        "address_line_2": null,
+        "city": "Salt Lake City",
+        "state": "UT",
+        "zip": "84101",
+        "country": "US"
+      }
+    ],
+    "1062922": [
+      {
+        "id": 7003,
+        "address_type": "physical",
+        "address_line_1": "88 Dune Road",
+        "address_line_2": null,
+        "city": "Southampton",
+        "state": "NY",
+        "zip": "11968",
+        "country": "US"
+      },
+      {
+        "id": 7004,
+        "address_type": "mailing",
+        "address_line_1": "88 Dune Road, Leasing Office",
+        "address_line_2": null,
+        "city": "Southampton",
+        "state": "NY",
+        "zip": "11968",
+        "country": "US"
+      }
+    ],
+    "1062923": [
+      {
+        "id": 7005,
+        "address_type": "physical",
+        "address_line_1": "450 Pacific Coast Highway",
+        "address_line_2": null,
+        "city": "Newport Beach",
+        "state": "CA",
+        "zip": "92663",
+        "country": "US"
+      },
+      {
+        "id": 7006,
+        "address_type": "mailing",
+        "address_line_1": "450 Pacific Coast Highway, Suite A",
+        "address_line_2": null,
+        "city": "Newport Beach",
+        "state": "CA",
+        "zip": "92663",
+        "country": "US"
+      }
+    ],
+    "1062924": [
+      {
+        "id": 7007,
+        "address_type": "physical",
+        "address_line_1": "1 Kensington Lane",
+        "address_line_2": null,
+        "city": "Chicago",
+        "state": "IL",
+        "zip": "60614",
+        "country": "US"
+      },
+      {
+        "id": 7008,
+        "address_type": "mailing",
+        "address_line_1": "1 Kensington Lane, Leasing Office",
+        "address_line_2": null,
+        "city": "Chicago",
+        "state": "IL",
+        "zip": "60614",
+        "country": "US"
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "data": {
+    "1062921": {
+      "property_id": 1062921,
+      "phone": "(801) 555-0142",
+      "fax": "(801) 555-0143",
+      "email": "leasing@theresidences.com",
+      "website": "https://theresidences.com"
+    },
+    "1062922": {
+      "property_id": 1062922,
+      "phone": "(631) 555-0188",
+      "fax": "(631) 555-0189",
+      "email": "leasing@thehamptons.com",
+      "website": "https://thehamptons.com"
+    },
+    "1062923": {
+      "property_id": 1062923,
+      "phone": "(949) 555-0234",
+      "fax": "(949) 555-0235",
+      "email": "leasing@theocapts.com",
+      "website": "https://theocapts.com"
+    },
+    "1062924": {
+      "property_id": 1062924,
+      "phone": "(312) 555-0167",
+      "fax": "(312) 555-0168",
+      "email": "leasing@londontown.com",
+      "website": "https://londontown.com"
+    }
+  }
+}

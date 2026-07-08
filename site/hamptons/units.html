@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Floor Plans — The Hamptons</title>
+  <meta name="description" content="Browse available residences at The Hamptons. Filter by bedrooms and price to find your perfect coastal floor plan in Southampton.">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: { DEFAULT: '#18181B', light: '#3F3F46', dark: '#09090B' },
+            accent: '#2563EB',
+            cta: '#2563EB',
+            surface: { DEFAULT: '#FAFAFA', card: '#FFFFFF', muted: '#F4F4F5' },
+            ink: { DEFAULT: '#09090B', muted: '#71717A', inverse: '#FFFFFF' },
+            border: '#E4E4E7',
+            destructive: '#DC2626',
+          },
+          fontFamily: {
+            heading: ['Cinzel', 'serif'],
+            body: ['Josefin Sans', 'sans-serif'],
+          },
+        },
+      },
+    }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Josefin+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="stylesheet" href="../assets/css/chatbot.css">
+</head>
+<body class="font-body bg-surface text-ink antialiased min-h-screen flex flex-col">
+  <script>window.PROPERTY_ID = 1062922;</script>
+
+  <!-- Portfolio Navigation -->
+  <div class="bg-primary-dark text-white/70 text-xs py-1.5 px-4 flex items-center justify-center gap-6 z-[60] relative">
+    <span class="text-white/40 mr-2">Portfolio:</span>
+    <a href="../index.html" class="hover:text-white/90">The Residences</a>
+    <a href="index.html" class="text-white font-medium hover:text-white/90">The Hamptons</a>
+    <a href="../oc/index.html" class="hover:text-white/90">The OC</a>
+    <a href="../london-town/index.html" class="hover:text-white/90">London Town</a>
+  </div>
+
+  <!-- Navigation -->
+  <nav id="main-nav" class="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-md border-b border-border/50 transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16 sm:h-20">
+        <a href="index.html" class="font-heading text-xl sm:text-2xl font-semibold text-primary-dark tracking-wide">
+          The Hamptons
+        </a>
+        <div class="hidden md:flex items-center gap-8">
+          <a href="index.html" class="nav-link text-sm font-medium text-ink/70 hover:text-primary transition-colors duration-200 cursor-pointer">Home</a>
+          <a href="units.html" class="nav-link text-sm font-medium text-primary transition-colors duration-200 cursor-pointer">Floor Plans</a>
+          <a href="index.html#amenities" class="nav-link text-sm font-medium text-ink/70 hover:text-primary transition-colors duration-200 cursor-pointer">Amenities</a>
+          <a href="index.html#gallery" class="nav-link text-sm font-medium text-ink/70 hover:text-primary transition-colors duration-200 cursor-pointer">Gallery</a>
+          <a href="index.html#contact" class="nav-link text-sm font-medium text-ink/70 hover:text-primary transition-colors duration-200 cursor-pointer">Contact</a>
+          <a href="units.html" class="inline-flex items-center px-5 py-2.5 bg-cta text-white text-sm font-semibold rounded-lg hover:bg-blue-700 transition-all duration-200 cursor-pointer shadow-sm hover:shadow-md">
+            Apply Now
+          </a>
+        </div>
+        <button id="mobile-menu-btn" class="md:hidden p-2 rounded-lg text-ink hover:bg-surface-muted transition-colors duration-200 cursor-pointer" aria-label="Toggle menu">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+        </button>
+      </div>
+    </div>
+    <div id="mobile-menu" class="hidden md:hidden border-t border-border/50 bg-white">
+      <div class="px-4 py-4 space-y-3">
+        <a href="index.html" class="block text-sm font-medium text-ink/70 hover:text-primary transition-colors duration-200 cursor-pointer">Home</a>
+        <a href="units.html" class="block text-sm font-medium text-primary cursor-pointer">Floor Plans</a>
+        <a href="index.html#amenities" class="block text-sm font-medium text-ink/70 hover:text-primary transition-colors duration-200 cursor-pointer">Amenities</a>
+        <a href="index.html#gallery" class="block text-sm font-medium text-ink/70 hover:text-primary transition-colors duration-200 cursor-pointer">Gallery</a>
+        <a href="index.html#contact" class="block text-sm font-medium text-ink/70 hover:text-primary transition-colors duration-200 cursor-pointer">Contact</a>
+        <a href="units.html" class="block text-center px-5 py-2.5 bg-cta text-white text-sm font-semibold rounded-lg hover:bg-blue-700 transition-all duration-200 cursor-pointer">Apply Now</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <section class="pt-28 sm:pt-36 pb-12 bg-white flex-grow">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <p class="text-sm font-medium tracking-[0.2em] uppercase text-primary mb-3">Available Homes</p>
+      <h1 class="font-heading text-4xl sm:text-5xl font-bold text-primary-dark mb-4">Floor Plans & Pricing</h1>
+      <p class="text-ink-muted max-w-2xl text-lg">From intimate cottages to grand estates, find the coastal residence that fits your lifestyle at The Hamptons.</p>
+    </div>
+  </section>
+
+  <!-- Filters -->
+  <section class="sticky top-16 sm:top-20 z-40 bg-white border-b border-border/50 shadow-sm">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+      <div class="flex flex-wrap items-center gap-3">
+        <span class="text-sm font-medium text-ink mr-2">Filter:</span>
+        <button data-filter="all" class="filter-btn active px-4 py-2 text-sm font-medium rounded-full border border-border transition-all duration-200 cursor-pointer bg-primary text-white border-primary">All</button>
+        <button data-filter="studio" class="filter-btn px-4 py-2 text-sm font-medium rounded-full border border-border text-ink-muted hover:border-primary hover:text-primary transition-all duration-200 cursor-pointer">Studio</button>
+        <button data-filter="1bed" class="filter-btn px-4 py-2 text-sm font-medium rounded-full border border-border text-ink-muted hover:border-primary hover:text-primary transition-all duration-200 cursor-pointer">1 Bed</button>
+        <button data-filter="2bed" class="filter-btn px-4 py-2 text-sm font-medium rounded-full border border-border text-ink-muted hover:border-primary hover:text-primary transition-all duration-200 cursor-pointer">2 Bed</button>
+        <button data-filter="3bed" class="filter-btn px-4 py-2 text-sm font-medium rounded-full border border-border text-ink-muted hover:border-primary hover:text-primary transition-all duration-200 cursor-pointer">3 Bed</button>
+        <div class="ml-auto hidden sm:flex items-center gap-2 text-sm text-ink-muted">
+          <span id="unit-count">7</span> units available
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Unit Listings -->
+  <section class="py-12 sm:py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div id="unit-grid" class="grid md:grid-cols-2 gap-6">
+
+        <!-- Unit: The Cottage -->
+        <div class="unit-card bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300" data-type="studio" data-price="2100" data-sqft="550">
+          <div class="flex flex-col sm:flex-row">
+            <div class="sm:w-2/5 h-48 sm:h-auto relative overflow-hidden">
+              <img src="https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=500&q=80" alt="The Cottage interior" class="w-full h-full object-cover">
+              <span class="absolute top-3 left-3 px-2.5 py-1 bg-primary text-white text-xs font-semibold rounded-full">Available</span>
+            </div>
+            <div class="flex-1 p-6">
+              <div class="flex items-start justify-between mb-2">
+                <div>
+                  <h3 class="font-heading text-lg font-semibold text-primary-dark">The Cottage</h3>
+                  <p class="text-sm text-ink-muted">Studio &bull; 1 Bath</p>
+                </div>
+                <span class="text-xs font-medium px-2 py-1 rounded bg-primary/10 text-primary">4 Left</span>
+              </div>
+              <div class="flex items-center gap-4 mt-3 text-sm text-ink-muted">
+                <span class="flex items-center gap-1">
+                  <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4"/></svg>
+                  550 sq ft
+                </span>
+                <span class="flex items-center gap-1">
+                  <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/></svg>
+                  Ground Floor
+                </span>
+              </div>
+              <div class="flex items-center justify-between mt-4 pt-4 border-t border-border/50">
+                <p class="text-xl font-heading font-bold text-primary">$2,100<span class="text-xs font-body text-ink-muted font-normal">/mo</span></p>
+                <a href="#" class="inline-flex items-center px-4 py-2 bg-cta text-white text-sm font-semibold rounded-lg hover:bg-blue-700 transition-all duration-200 cursor-pointer">Apply</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unit: The Bungalow -->
+        <div class="unit-card bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300" data-type="studio" data-price="2350" data-sqft="620">
+          <div class="flex flex-col sm:flex-row">
+            <div class="sm:w-2/5 h-48 sm:h-auto relative overflow-hidden">
+              <img src="https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=500&q=80" alt="The Bungalow interior" class="w-full h-full object-cover">
+              <span class="absolute top-3 left-3 px-2.5 py-1 bg-primary text-white text-xs font-semibold rounded-full">Available</span>
+            </div>
+            <div class="flex-1 p-6">
+              <div class="flex items-start justify-between mb-2">
+                <div>
+                  <h3 class="font-heading text-lg font-semibold text-primary-dark">The Bungalow</h3>
+                  <p class="text-sm text-ink-muted">Studio &bull; 1 Bath &bull; Patio</p>
+                </div>
+                <span class="text-xs font-medium px-2 py-1 rounded bg-primary/10 text-primary">3 Left</span>
+              </div>
+              <div class="flex items-center gap-4 mt-3 text-sm text-ink-muted">
+                <span class="flex items-center gap-1">
+                  <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4"/></svg>
+                  620 sq ft
+                </span>
+                <span class="flex items-center gap-1">
+                  <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/></svg>
+                  Ground Floor
+                </span>
+              </div>
+              <div class="flex items-center justify-between mt-4 pt-4 border-t border-border/50">
+                <p class="text-xl font-heading font-bold text-primary">$2,350<span class="text-xs font-body text-ink-muted font-normal">/mo</span></p>
+                <a href="#" class="inline-flex items-center px-4 py-2 bg-cta text-white text-sm font-semibold rounded-lg hover:bg-blue-700 transition-all duration-200 cursor-pointer">Apply</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unit: The Cape -->
+        <div class="unit-card bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300" data-type="1bed" data-price="3100" data-sqft="850">
+          <div class="flex flex-col sm:flex-row">
+            <div class="sm:w-2/5 h-48 sm:h-auto relative overflow-hidden">
+              <img src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=500&q=80" alt="The Cape interior" class="w-full h-full object-cover">
+              <span class="absolute top-3 left-3 px-2.5 py-1 bg-cta text-white text-xs font-semibold rounded-full">Popular</span>
+            </div>
+            <div class="flex-1 p-6">
+              <div class="flex items-start justify-between mb-2">
+                <div>
+                  <h3 class="font-heading text-lg font-semibold text-primary-dark">The Cape</h3>
+                  <p class="text-sm text-ink-muted">1 Bed &bull; 1 Bath</p>
+                </div>
+                <span class="text-xs font-medium px-2 py-1 rounded bg-cta/10 text-cta">2 Left</span>
+              </div>
+              <div class="flex items-center gap-4 mt-3 text-sm text-ink-muted">
+                <span class="flex items-center gap-1">
+                  <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4"/></svg>
+                  850 sq ft
+                </span>
+                <span class="flex items-center gap-1">
+                  <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/></svg>
+                  Floor 2–3
+                </span>
+              </div>
+              <div class="flex items-center justify-between mt-4 pt-4 border-t border-border/50">
+                <p class="text-xl font-heading font-bold text-primary">$3,100<span class="text-xs font-body text-ink-muted font-normal">/mo</span></p>
+                <a href="#" class="inline-flex items-center px-4 py-2 bg-cta text-white text-sm font-semibold rounded-lg hover:bg-blue-700 transition-all duration-200 cursor-pointer">Apply</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unit: The Shore -->
+        <div class="unit-card bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300" data-type="1bed" data-price="3500" data-sqft="950">
+          <div class="flex flex-col sm:flex-row">
+            <div class="sm:w-2/5 h-48 sm:h-auto relative overflow-hidden">
+              <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=500&q=80" alt="The Shore interior" class="w-full h-full object-cover">
+              <span class="absolute top-3 left-3 px-2.5 py-1 bg-primary text-white text-xs font-semibold rounded-full">Ocean View</span>
+            </div>
+            <div class="flex-1 p-6">
+              <div class="flex items-start justify-between mb-2">
+                <div>
+                  <h3 class="font-heading text-lg font-semibold text-primary-dark">The Shore</h3>
+                  <p class="text-sm text-ink-muted">1 Bed &bull; 1 Bath &bull; Balcony</p>
+                </div>
+                <span class="text-xs font-medium px-2 py-1 rounded bg-primary/10 text-primary">3 Left</span>
+              </div>
+              <div class="flex items-center gap-4 mt-3 text-sm text-ink-muted">
+                <span class="flex items-center gap-1">
+                  <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4"/></svg>
+                  950 sq ft
+                </span>
+                <span class="flex items-center gap-1">
+                  <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/></svg>
+                  Floor 2–3
+                </span>
+              </div>
+              <div class="flex items-center justify-between mt-4 pt-4 border-t border-border/50">
+                <p class="text-xl font-heading font-bold text-primary">$3,500<span class="text-xs font-body text-ink-muted font-normal">/mo</span></p>
+                <a href="#" class="inline-flex items-center px-4 py-2 bg-cta text-white text-sm font-semibold rounded-lg hover:bg-blue-700 transition-all duration-200 cursor-pointer">Apply</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unit: The Breakers -->
+        <div class="unit-card bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300" data-type="2bed" data-price="4600" data-sqft="1350">
+          <div class="flex flex-col sm:flex-row">
+            <div class="sm:w-2/5 h-48 sm:h-auto relative overflow-hidden">
+              <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=500&q=80" alt="The Breakers interior" class="w-full h-full object-cover">
+              <span class="absolute top-3 left-3 px-2.5 py-1 bg-cta text-white text-xs font-semibold rounded-full">Popular</span>
+            </div>
+            <div class="flex-1 p-6">
+              <div class="flex items-start justify-between mb-2">
+                <div>
+                  <h3 class="font-heading text-lg font-semibold text-primary-dark">The Breakers</h3>
+                  <p class="text-sm text-ink-muted">2 Bed &bull; 2 Bath</p>
+                </div>
+                <span class="text-xs font-medium px-2 py-1 rounded bg-cta/10 text-cta">2 Left</span>
+              </div>
+              <div class="flex items-center gap-4 mt-3 text-sm text-ink-muted">
+                <span class="flex items-center gap-1">
+                  <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4"/></svg>
+                  1,350 sq ft
+                </span>
+                <span class="flex items-center gap-1">
+                  <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/></svg>
+                  Floor 2–3
+                </span>
+              </div>
+              <div class="flex items-center justify-between mt-4 pt-4 border-t border-border/50">
+                <p class="text-xl font-heading font-bold text-primary">$4,600<span class="text-xs font-body text-ink-muted font-normal">/mo</span></p>
+                <a href="#" class="inline-flex items-center px-4 py-2 bg-cta text-white text-sm font-semibold rounded-lg hover:bg-blue-700 transition-all duration-200 cursor-pointer">Apply</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unit: The Dunes -->
+        <div class="unit-card bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300" data-type="2bed" data-price="5200" data-sqft="1500">
+          <div class="flex flex-col sm:flex-row">
+            <div class="sm:w-2/5 h-48 sm:h-auto relative overflow-hidden">
+              <img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=500&q=80" alt="The Dunes interior" class="w-full h-full object-cover">
+              <span class="absolute top-3 left-3 px-2.5 py-1 bg-primary text-white text-xs font-semibold rounded-full">Premium</span>
+            </div>
+            <div class="flex-1 p-6">
+              <div class="flex items-start justify-between mb-2">
+                <div>
+                  <h3 class="font-heading text-lg font-semibold text-primary-dark">The Dunes</h3>
+                  <p class="text-sm text-ink-muted">2 Bed &bull; 2 Bath &bull; Den</p>
+                </div>
+                <span class="text-xs font-medium px-2 py-1 rounded bg-primary/10 text-primary">3 Left</span>
+              </div>
+              <div class="flex items-center gap-4 mt-3 text-sm text-ink-muted">
+                <span class="flex items-center gap-1">
+                  <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4"/></svg>
+                  1,500 sq ft
+                </span>
+                <span class="flex items-center gap-1">
+                  <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/></svg>
+                  Top Floor
+                </span>
+              </div>
+              <div class="flex items-center justify-between mt-4 pt-4 border-t border-border/50">
+                <p class="text-xl font-heading font-bold text-primary">$5,200<span class="text-xs font-body text-ink-muted font-normal">/mo</span></p>
+                <a href="#" class="inline-flex items-center px-4 py-2 bg-cta text-white text-sm font-semibold rounded-lg hover:bg-blue-700 transition-all duration-200 cursor-pointer">Apply</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unit: The Estate -->
+        <div class="unit-card bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300" data-type="3bed" data-price="6500" data-sqft="2200">
+          <div class="flex flex-col sm:flex-row">
+            <div class="sm:w-2/5 h-48 sm:h-auto relative overflow-hidden">
+              <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=500&q=80" alt="The Estate interior" class="w-full h-full object-cover">
+              <span class="absolute top-3 left-3 px-2.5 py-1 bg-primary text-white text-xs font-semibold rounded-full">Premium</span>
+            </div>
+            <div class="flex-1 p-6">
+              <div class="flex items-start justify-between mb-2">
+                <div>
+                  <h3 class="font-heading text-lg font-semibold text-primary-dark">The Estate</h3>
+                  <p class="text-sm text-ink-muted">3 Bed &bull; 2.5 Bath &bull; Terrace</p>
+                </div>
+                <span class="text-xs font-medium px-2 py-1 rounded bg-destructive/10 text-destructive">1 Left</span>
+              </div>
+              <div class="flex items-center gap-4 mt-3 text-sm text-ink-muted">
+                <span class="flex items-center gap-1">
+                  <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4"/></svg>
+                  2,200 sq ft
+                </span>
+                <span class="flex items-center gap-1">
+                  <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/></svg>
+                  Penthouse
+                </span>
+              </div>
+              <div class="flex items-center justify-between mt-4 pt-4 border-t border-border/50">
+                <p class="text-xl font-heading font-bold text-primary">$6,500<span class="text-xs font-body text-ink-muted font-normal">/mo</span></p>
+                <a href="#" class="inline-flex items-center px-4 py-2 bg-cta text-white text-sm font-semibold rounded-lg hover:bg-blue-700 transition-all duration-200 cursor-pointer">Apply</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Empty State -->
+      <div id="empty-state" class="hidden text-center py-16">
+        <svg class="w-16 h-16 text-ink-muted/30 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+        <p class="text-ink-muted text-lg">No units match your filter.</p>
+        <button onclick="document.querySelector('[data-filter=all]').click()" class="mt-4 text-primary font-medium hover:underline cursor-pointer">Show all units</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="py-16 bg-gradient-to-r from-primary to-accent">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h2 class="font-heading text-3xl sm:text-4xl font-bold text-white mb-4">Found Your Coastal Home?</h2>
+      <p class="text-white/80 mb-8 max-w-xl mx-auto">Apply online in minutes. Our secure application process makes it easy to start your Hamptons lifestyle.</p>
+      <a href="#" class="inline-flex items-center px-8 py-4 bg-cta text-white font-semibold rounded-lg hover:bg-blue-700 transition-all duration-200 cursor-pointer shadow-lg text-base">
+        Start Your Application
+        <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-primary-dark text-white/70 py-12">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col sm:flex-row items-center justify-between gap-4">
+        <a href="index.html" class="font-heading text-lg font-semibold text-white">The Hamptons</a>
+        <div class="flex items-center gap-6 text-sm">
+          <a href="index.html" class="hover:text-white transition-colors duration-200 cursor-pointer">Home</a>
+          <a href="units.html" class="hover:text-white transition-colors duration-200 cursor-pointer">Floor Plans</a>
+          <a href="index.html#amenities" class="hover:text-white transition-colors duration-200 cursor-pointer">Amenities</a>
+          <a href="index.html#contact" class="hover:text-white transition-colors duration-200 cursor-pointer">Contact</a>
+        </div>
+        <p class="text-xs">&copy; 2026 The Hamptons</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../assets/js/main.js"></script>
+  <script src="../assets/js/chatbot.js"></script>
+</body>
+</html>

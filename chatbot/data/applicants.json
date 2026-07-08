@@ -1,0 +1,31 @@
+{
+  "data": [
+    {
+      "id": 21100001,
+      "application_id": 24188001,
+      "first_name": "Sarah",
+      "last_name": "Johnson",
+      "email": "sarah.johnson@email.com",
+      "phone": "(801) 555-0199",
+      "status": "prospect"
+    },
+    {
+      "id": 21100002,
+      "application_id": 24188002,
+      "first_name": "Marcus",
+      "last_name": "Chen",
+      "email": "marcus.chen@email.com",
+      "phone": "(801) 555-0244",
+      "status": "prospect"
+    },
+    {
+      "id": 21100003,
+      "application_id": 24188003,
+      "first_name": "Emily",
+      "last_name": "Rodriguez",
+      "email": "emily.rodriguez@email.com",
+      "phone": "(801) 555-0317",
+      "status": "applicant"
+    }
+  ]
+}

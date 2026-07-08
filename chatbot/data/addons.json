@@ -1,0 +1,37 @@
+{
+  "data": {
+    "1062921": [
+      {"id": 6001, "name": "Reserved Parking", "type": "parking", "monthly_cost": 75.00, "description": "Covered reserved parking space in garage"},
+      {"id": 6002, "name": "Covered Parking", "type": "parking", "monthly_cost": 100.00, "description": "Covered parking space in garage (first-come assignment)"},
+      {"id": 6003, "name": "Uncovered Parking", "type": "parking", "monthly_cost": 50.00, "description": "Open surface lot parking space"},
+      {"id": 6004, "name": "Storage Unit - Small", "type": "storage", "monthly_cost": 50.00, "description": "5x5 climate-controlled storage unit"},
+      {"id": 6005, "name": "Storage Unit - Large", "type": "storage", "monthly_cost": 85.00, "description": "10x10 climate-controlled storage unit"},
+      {"id": 6006, "name": "Pet Rent", "type": "pet", "monthly_cost": 35.00, "description": "Monthly pet rent per pet (max 2 pets)"}
+    ],
+    "1062922": [
+      {"id": 6101, "name": "Valet Parking", "type": "parking", "monthly_cost": 250.00, "description": "24/7 valet parking with covered garage space"},
+      {"id": 6102, "name": "Reserved Garage", "type": "parking", "monthly_cost": 150.00, "description": "Reserved covered parking space in garage"},
+      {"id": 6103, "name": "Storage Unit - Small", "type": "storage", "monthly_cost": 75.00, "description": "5x5 climate-controlled storage unit"},
+      {"id": 6104, "name": "Storage Unit - Large", "type": "storage", "monthly_cost": 125.00, "description": "10x10 climate-controlled storage unit"},
+      {"id": 6105, "name": "Wine Locker", "type": "storage", "monthly_cost": 60.00, "description": "Private temperature-controlled wine locker (holds 48 bottles)"},
+      {"id": 6106, "name": "Pet Rent", "type": "pet", "monthly_cost": 50.00, "description": "Monthly pet rent per pet (max 2 pets)"},
+      {"id": 6107, "name": "Beach Club Cabana", "type": "premium", "monthly_cost": 350.00, "description": "Reserved beach cabana with seasonal access (May-Sept)"}
+    ],
+    "1062923": [
+      {"id": 6201, "name": "Reserved Parking", "type": "parking", "monthly_cost": 125.00, "description": "Reserved covered parking space in garage"},
+      {"id": 6202, "name": "Covered Parking", "type": "parking", "monthly_cost": 175.00, "description": "Premium covered space near elevator"},
+      {"id": 6203, "name": "Surf Locker", "type": "storage", "monthly_cost": 45.00, "description": "Individual surf/paddleboard locker with rack"},
+      {"id": 6204, "name": "Storage Unit", "type": "storage", "monthly_cost": 65.00, "description": "5x8 climate-controlled storage unit"},
+      {"id": 6205, "name": "Pet Rent", "type": "pet", "monthly_cost": 45.00, "description": "Monthly pet rent per pet (max 2 pets)"},
+      {"id": 6206, "name": "EV Charging - Reserved", "type": "parking", "monthly_cost": 50.00, "description": "Reserved EV charging station with unlimited use"}
+    ],
+    "1062924": [
+      {"id": 6301, "name": "Underground Parking", "type": "parking", "monthly_cost": 200.00, "description": "Heated underground garage assigned space"},
+      {"id": 6302, "name": "Surface Lot Parking", "type": "parking", "monthly_cost": 125.00, "description": "Surface lot parking space behind building"},
+      {"id": 6303, "name": "Storage Unit - Small", "type": "storage", "monthly_cost": 60.00, "description": "5x5 basement storage unit"},
+      {"id": 6304, "name": "Storage Unit - Large", "type": "storage", "monthly_cost": 100.00, "description": "10x10 basement storage unit"},
+      {"id": 6305, "name": "Pet Rent", "type": "pet", "monthly_cost": 40.00, "description": "Monthly pet rent per pet (max 2 pets)"},
+      {"id": 6306, "name": "Bike Storage", "type": "storage", "monthly_cost": 25.00, "description": "Individual secure bike locker in garage"}
+    ]
+  }
+}

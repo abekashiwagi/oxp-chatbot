@@ -1,0 +1,37 @@
+{
+  "data": [
+    {
+      "id": 30001,
+      "application_id": 24188001,
+      "applicant_id": 21100001,
+      "property_id": 1062921,
+      "tour_type": "tour",
+      "tour_date": "2026-06-10",
+      "time_slot": {"start_time": "10:00", "end_time": "10:30"},
+      "status": "scheduled",
+      "created_at": "2026-06-05T14:30:00Z"
+    },
+    {
+      "id": 30002,
+      "application_id": 24188002,
+      "applicant_id": 21100002,
+      "property_id": 1062921,
+      "tour_type": "self_guided_tour",
+      "tour_date": "2026-06-07",
+      "time_slot": {"start_time": "11:00", "end_time": "12:00"},
+      "status": "scheduled",
+      "created_at": "2026-06-04T09:15:00Z"
+    },
+    {
+      "id": 30003,
+      "application_id": 24188003,
+      "applicant_id": 21100003,
+      "property_id": 1062921,
+      "tour_type": "virtual_tour",
+      "tour_date": "2026-06-06",
+      "time_slot": {"start_time": "14:00", "end_time": "14:20"},
+      "status": "completed",
+      "created_at": "2026-06-02T16:45:00Z"
+    }
+  ]
+}

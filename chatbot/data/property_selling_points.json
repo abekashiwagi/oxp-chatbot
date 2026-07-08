@@ -1,0 +1,32 @@
+{
+  "data": {
+    "1062921": [
+      {"id": 1, "title": "Walk Score 92", "description": "Steps from restaurants, shopping, and nightlife"},
+      {"id": 2, "title": "Mountain Views", "description": "Panoramic Wasatch Mountain views from upper floors"},
+      {"id": 3, "title": "Pet Paradise", "description": "Dog park, pet spa, and pet-friendly trails nearby"},
+      {"id": 4, "title": "Modern Living", "description": "Smart home features and premium finishes in every unit"},
+      {"id": 5, "title": "Work From Home", "description": "Co-working spaces with private offices and high-speed WiFi"}
+    ],
+    "1062922": [
+      {"id": 6, "title": "Private Beach Access", "description": "Direct pathway to your own stretch of Southampton shoreline"},
+      {"id": 7, "title": "Estate-Level Finishes", "description": "Marble, hardwood, gas fireplaces, and chef's kitchens in every home"},
+      {"id": 8, "title": "Full-Service Luxury", "description": "Concierge, valet parking, and guest suites for visitors"},
+      {"id": 9, "title": "Hamptons Lifestyle", "description": "Tennis courts, beach club, wine cellar, and outdoor entertaining"},
+      {"id": 10, "title": "Pet Friendly Beachside", "description": "Oceanside dog run and pet-friendly beach access"}
+    ],
+    "1062923": [
+      {"id": 11, "title": "Steps to the Sand", "description": "Walk to Newport Beach, surf breaks, and the Balboa Peninsula"},
+      {"id": 12, "title": "Brand New (2023)", "description": "Newest construction on PCH with cutting-edge smart home tech"},
+      {"id": 13, "title": "Active Lifestyle", "description": "Surf storage, bike share, beach gear checkout, and yoga deck"},
+      {"id": 14, "title": "Rooftop Paradise", "description": "Infinity pool, ocean views, and fire pit lounge at sunset"},
+      {"id": 15, "title": "Eco-Conscious", "description": "EV charging, energy-efficient design, and sustainable materials"}
+    ],
+    "1062924": [
+      {"id": 16, "title": "British Charm", "description": "Herringbone floors, bay windows, and crown molding throughout"},
+      {"id": 17, "title": "On-Site Pub", "description": "The Crown & Kettle gastropub with craft beer and weekend brunch"},
+      {"id": 18, "title": "Lincoln Park Location", "description": "Steps from the lakefront trail, boutique shopping, and top restaurants"},
+      {"id": 19, "title": "White-Glove Service", "description": "24/7 doorman, afternoon tea, and cinema room"},
+      {"id": 20, "title": "Remote Work Ready", "description": "Library lounge with study nooks and high-speed WiFi throughout"}
+    ]
+  }
+}

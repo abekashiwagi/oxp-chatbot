@@ -1,0 +1,35 @@
+{
+  "data": {
+    "1062921": [
+      {"utility": "Water/Sewer", "responsibility": "owner", "estimated_monthly": null},
+      {"utility": "Trash/Recycling", "responsibility": "owner", "estimated_monthly": null},
+      {"utility": "Electric", "responsibility": "resident", "estimated_monthly": 85.00},
+      {"utility": "Gas", "responsibility": "resident", "estimated_monthly": 35.00},
+      {"utility": "Internet", "responsibility": "resident", "estimated_monthly": 60.00},
+      {"utility": "Renter's Insurance", "responsibility": "resident", "estimated_monthly": 15.00}
+    ],
+    "1062922": [
+      {"utility": "Water/Sewer", "responsibility": "owner", "estimated_monthly": null},
+      {"utility": "Trash/Recycling", "responsibility": "owner", "estimated_monthly": null},
+      {"utility": "Electric", "responsibility": "resident", "estimated_monthly": 120.00},
+      {"utility": "Gas", "responsibility": "resident", "estimated_monthly": 45.00},
+      {"utility": "Internet/Cable", "responsibility": "owner", "estimated_monthly": null},
+      {"utility": "Renter's Insurance", "responsibility": "resident", "estimated_monthly": 20.00}
+    ],
+    "1062923": [
+      {"utility": "Water/Sewer", "responsibility": "owner", "estimated_monthly": null},
+      {"utility": "Trash/Recycling", "responsibility": "owner", "estimated_monthly": null},
+      {"utility": "Electric", "responsibility": "resident", "estimated_monthly": 95.00},
+      {"utility": "Internet", "responsibility": "owner", "estimated_monthly": null},
+      {"utility": "Renter's Insurance", "responsibility": "resident", "estimated_monthly": 18.00}
+    ],
+    "1062924": [
+      {"utility": "Water/Sewer", "responsibility": "owner", "estimated_monthly": null},
+      {"utility": "Trash/Recycling", "responsibility": "owner", "estimated_monthly": null},
+      {"utility": "Electric", "responsibility": "resident", "estimated_monthly": 90.00},
+      {"utility": "Gas", "responsibility": "resident", "estimated_monthly": 50.00},
+      {"utility": "Internet", "responsibility": "resident", "estimated_monthly": 65.00},
+      {"utility": "Renter's Insurance", "responsibility": "resident", "estimated_monthly": 18.00}
+    ]
+  }
+}

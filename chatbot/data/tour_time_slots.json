@@ -1,0 +1,396 @@
+{
+  "data": [
+    {
+      "property_id": 1062921,
+      "date": "2026-06-06",
+      "tour_type": "tour",
+      "slots": [
+        {"start_time": "09:00", "end_time": "09:30", "available": true},
+        {"start_time": "09:30", "end_time": "10:00", "available": true},
+        {"start_time": "10:00", "end_time": "10:30", "available": false},
+        {"start_time": "10:30", "end_time": "11:00", "available": true},
+        {"start_time": "11:00", "end_time": "11:30", "available": true},
+        {"start_time": "13:00", "end_time": "13:30", "available": true},
+        {"start_time": "14:00", "end_time": "14:30", "available": false},
+        {"start_time": "15:00", "end_time": "15:30", "available": true}
+      ]
+    },
+    {
+      "property_id": 1062921,
+      "date": "2026-06-07",
+      "tour_type": "tour",
+      "slots": [
+        {"start_time": "10:00", "end_time": "10:30", "available": true},
+        {"start_time": "10:30", "end_time": "11:00", "available": true},
+        {"start_time": "11:00", "end_time": "11:30", "available": false},
+        {"start_time": "13:00", "end_time": "13:30", "available": true},
+        {"start_time": "14:00", "end_time": "14:30", "available": true},
+        {"start_time": "15:00", "end_time": "15:30", "available": true}
+      ]
+    },
+    {
+      "property_id": 1062921,
+      "date": "2026-06-08",
+      "tour_type": "tour",
+      "slots": [
+        {"start_time": "12:00", "end_time": "12:30", "available": true},
+        {"start_time": "12:30", "end_time": "13:00", "available": true},
+        {"start_time": "13:00", "end_time": "13:30", "available": true},
+        {"start_time": "14:00", "end_time": "14:30", "available": false},
+        {"start_time": "15:00", "end_time": "15:30", "available": true},
+        {"start_time": "16:00", "end_time": "16:30", "available": true}
+      ]
+    },
+    {
+      "property_id": 1062921,
+      "date": "2026-06-09",
+      "tour_type": "tour",
+      "slots": [
+        {"start_time": "09:00", "end_time": "09:30", "available": true},
+        {"start_time": "09:30", "end_time": "10:00", "available": false},
+        {"start_time": "10:00", "end_time": "10:30", "available": true},
+        {"start_time": "11:00", "end_time": "11:30", "available": true},
+        {"start_time": "13:00", "end_time": "13:30", "available": true},
+        {"start_time": "14:00", "end_time": "14:30", "available": true},
+        {"start_time": "15:00", "end_time": "15:30", "available": false},
+        {"start_time": "16:00", "end_time": "16:30", "available": true}
+      ]
+    },
+    {
+      "property_id": 1062921,
+      "date": "2026-06-10",
+      "tour_type": "tour",
+      "slots": [
+        {"start_time": "09:00", "end_time": "09:30", "available": true},
+        {"start_time": "09:30", "end_time": "10:00", "available": true},
+        {"start_time": "10:00", "end_time": "10:30", "available": false},
+        {"start_time": "10:30", "end_time": "11:00", "available": true},
+        {"start_time": "11:00", "end_time": "11:30", "available": true},
+        {"start_time": "13:00", "end_time": "13:30", "available": false},
+        {"start_time": "14:00", "end_time": "14:30", "available": true},
+        {"start_time": "15:30", "end_time": "16:00", "available": true}
+      ]
+    },
+    {
+      "property_id": 1062921,
+      "date": "2026-06-11",
+      "tour_type": "tour",
+      "slots": [
+        {"start_time": "09:00", "end_time": "09:30", "available": false},
+        {"start_time": "09:30", "end_time": "10:00", "available": true},
+        {"start_time": "10:30", "end_time": "11:00", "available": true},
+        {"start_time": "11:00", "end_time": "11:30", "available": true},
+        {"start_time": "13:00", "end_time": "13:30", "available": true},
+        {"start_time": "14:00", "end_time": "14:30", "available": true},
+        {"start_time": "15:00", "end_time": "15:30", "available": true},
+        {"start_time": "16:00", "end_time": "16:30", "available": false}
+      ]
+    },
+    {
+      "property_id": 1062921,
+      "date": "2026-06-12",
+      "tour_type": "tour",
+      "slots": [
+        {"start_time": "09:00", "end_time": "09:30", "available": true},
+        {"start_time": "09:30", "end_time": "10:00", "available": true},
+        {"start_time": "10:00", "end_time": "10:30", "available": true},
+        {"start_time": "11:00", "end_time": "11:30", "available": false},
+        {"start_time": "13:00", "end_time": "13:30", "available": true},
+        {"start_time": "14:00", "end_time": "14:30", "available": false},
+        {"start_time": "15:00", "end_time": "15:30", "available": true},
+        {"start_time": "16:00", "end_time": "16:30", "available": true}
+      ]
+    },
+    {
+      "property_id": 1062922,
+      "date": "2026-06-06",
+      "tour_type": "tour",
+      "slots": [
+        {"start_time": "09:00", "end_time": "09:45", "available": true},
+        {"start_time": "10:00", "end_time": "10:45", "available": true},
+        {"start_time": "11:00", "end_time": "11:45", "available": false},
+        {"start_time": "13:00", "end_time": "13:45", "available": true},
+        {"start_time": "14:00", "end_time": "14:45", "available": true},
+        {"start_time": "15:00", "end_time": "15:45", "available": true}
+      ]
+    },
+    {
+      "property_id": 1062922,
+      "date": "2026-06-07",
+      "tour_type": "tour",
+      "slots": [
+        {"start_time": "09:00", "end_time": "09:45", "available": true},
+        {"start_time": "10:00", "end_time": "10:45", "available": false},
+        {"start_time": "11:00", "end_time": "11:45", "available": true},
+        {"start_time": "13:00", "end_time": "13:45", "available": true},
+        {"start_time": "14:00", "end_time": "14:45", "available": false},
+        {"start_time": "15:00", "end_time": "15:45", "available": true}
+      ]
+    },
+    {
+      "property_id": 1062922,
+      "date": "2026-06-08",
+      "tour_type": "tour",
+      "slots": [
+        {"start_time": "10:00", "end_time": "10:45", "available": true},
+        {"start_time": "11:00", "end_time": "11:45", "available": true},
+        {"start_time": "13:00", "end_time": "13:45", "available": true},
+        {"start_time": "14:00", "end_time": "14:45", "available": false},
+        {"start_time": "15:00", "end_time": "15:45", "available": true}
+      ]
+    },
+    {
+      "property_id": 1062922,
+      "date": "2026-06-09",
+      "tour_type": "tour",
+      "slots": [
+        {"start_time": "09:00", "end_time": "09:45", "available": true},
+        {"start_time": "10:00", "end_time": "10:45", "available": true},
+        {"start_time": "11:00", "end_time": "11:45", "available": true},
+        {"start_time": "13:00", "end_time": "13:45", "available": false},
+        {"start_time": "14:00", "end_time": "14:45", "available": true},
+        {"start_time": "15:00", "end_time": "15:45", "available": true}
+      ]
+    },
+    {
+      "property_id": 1062922,
+      "date": "2026-06-10",
+      "tour_type": "tour",
+      "slots": [
+        {"start_time": "09:00", "end_time": "09:45", "available": false},
+        {"start_time": "10:00", "end_time": "10:45", "available": true},
+        {"start_time": "11:00", "end_time": "11:45", "available": true},
+        {"start_time": "13:00", "end_time": "13:45", "available": true},
+        {"start_time": "14:00", "end_time": "14:45", "available": true},
+        {"start_time": "15:00", "end_time": "15:45", "available": false}
+      ]
+    },
+    {
+      "property_id": 1062922,
+      "date": "2026-06-11",
+      "tour_type": "tour",
+      "slots": [
+        {"start_time": "09:00", "end_time": "09:45", "available": true},
+        {"start_time": "10:00", "end_time": "10:45", "available": true},
+        {"start_time": "11:00", "end_time": "11:45", "available": false},
+        {"start_time": "13:00", "end_time": "13:45", "available": true},
+        {"start_time": "14:00", "end_time": "14:45", "available": true},
+        {"start_time": "15:00", "end_time": "15:45", "available": true}
+      ]
+    },
+    {
+      "property_id": 1062922,
+      "date": "2026-06-12",
+      "tour_type": "tour",
+      "slots": [
+        {"start_time": "09:00", "end_time": "09:45", "available": true},
+        {"start_time": "10:00", "end_time": "10:45", "available": false},
+        {"start_time": "11:00", "end_time": "11:45", "available": true},
+        {"start_time": "13:00", "end_time": "13:45", "available": true},
+        {"start_time": "14:00", "end_time": "14:45", "available": true},
+        {"start_time": "15:00", "end_time": "15:45", "available": false}
+      ]
+    },
+    {
+      "property_id": 1062923,
+      "date": "2026-06-06",
+      "tour_type": "tour",
+      "slots": [
+        {"start_time": "09:00", "end_time": "09:30", "available": true},
+        {"start_time": "09:30", "end_time": "10:00", "available": false},
+        {"start_time": "10:00", "end_time": "10:30", "available": true},
+        {"start_time": "10:30", "end_time": "11:00", "available": true},
+        {"start_time": "11:00", "end_time": "11:30", "available": true},
+        {"start_time": "13:00", "end_time": "13:30", "available": true},
+        {"start_time": "14:00", "end_time": "14:30", "available": true},
+        {"start_time": "15:00", "end_time": "15:30", "available": false}
+      ]
+    },
+    {
+      "property_id": 1062923,
+      "date": "2026-06-07",
+      "tour_type": "tour",
+      "slots": [
+        {"start_time": "10:00", "end_time": "10:30", "available": true},
+        {"start_time": "10:30", "end_time": "11:00", "available": true},
+        {"start_time": "11:00", "end_time": "11:30", "available": true},
+        {"start_time": "13:00", "end_time": "13:30", "available": false},
+        {"start_time": "14:00", "end_time": "14:30", "available": true},
+        {"start_time": "15:00", "end_time": "15:30", "available": true}
+      ]
+    },
+    {
+      "property_id": 1062923,
+      "date": "2026-06-08",
+      "tour_type": "tour",
+      "slots": [
+        {"start_time": "11:00", "end_time": "11:30", "available": true},
+        {"start_time": "11:30", "end_time": "12:00", "available": true},
+        {"start_time": "13:00", "end_time": "13:30", "available": true},
+        {"start_time": "14:00", "end_time": "14:30", "available": true},
+        {"start_time": "15:00", "end_time": "15:30", "available": false}
+      ]
+    },
+    {
+      "property_id": 1062923,
+      "date": "2026-06-09",
+      "tour_type": "tour",
+      "slots": [
+        {"start_time": "09:00", "end_time": "09:30", "available": true},
+        {"start_time": "09:30", "end_time": "10:00", "available": true},
+        {"start_time": "10:00", "end_time": "10:30", "available": false},
+        {"start_time": "10:30", "end_time": "11:00", "available": true},
+        {"start_time": "13:00", "end_time": "13:30", "available": true},
+        {"start_time": "14:00", "end_time": "14:30", "available": true},
+        {"start_time": "15:00", "end_time": "15:30", "available": true},
+        {"start_time": "16:00", "end_time": "16:30", "available": false}
+      ]
+    },
+    {
+      "property_id": 1062923,
+      "date": "2026-06-10",
+      "tour_type": "tour",
+      "slots": [
+        {"start_time": "09:00", "end_time": "09:30", "available": true},
+        {"start_time": "09:30", "end_time": "10:00", "available": false},
+        {"start_time": "10:00", "end_time": "10:30", "available": true},
+        {"start_time": "10:30", "end_time": "11:00", "available": true},
+        {"start_time": "11:00", "end_time": "11:30", "available": true},
+        {"start_time": "13:00", "end_time": "13:30", "available": true},
+        {"start_time": "14:00", "end_time": "14:30", "available": false},
+        {"start_time": "15:00", "end_time": "15:30", "available": true}
+      ]
+    },
+    {
+      "property_id": 1062923,
+      "date": "2026-06-11",
+      "tour_type": "tour",
+      "slots": [
+        {"start_time": "09:00", "end_time": "09:30", "available": true},
+        {"start_time": "09:30", "end_time": "10:00", "available": true},
+        {"start_time": "10:00", "end_time": "10:30", "available": true},
+        {"start_time": "11:00", "end_time": "11:30", "available": false},
+        {"start_time": "13:00", "end_time": "13:30", "available": true},
+        {"start_time": "14:00", "end_time": "14:30", "available": true},
+        {"start_time": "15:00", "end_time": "15:30", "available": true},
+        {"start_time": "16:00", "end_time": "16:30", "available": true}
+      ]
+    },
+    {
+      "property_id": 1062923,
+      "date": "2026-06-12",
+      "tour_type": "tour",
+      "slots": [
+        {"start_time": "09:00", "end_time": "09:30", "available": false},
+        {"start_time": "09:30", "end_time": "10:00", "available": true},
+        {"start_time": "10:00", "end_time": "10:30", "available": true},
+        {"start_time": "10:30", "end_time": "11:00", "available": true},
+        {"start_time": "13:00", "end_time": "13:30", "available": true},
+        {"start_time": "14:00", "end_time": "14:30", "available": true},
+        {"start_time": "15:00", "end_time": "15:30", "available": false},
+        {"start_time": "16:00", "end_time": "16:30", "available": true}
+      ]
+    },
+    {
+      "property_id": 1062924,
+      "date": "2026-06-06",
+      "tour_type": "tour",
+      "slots": [
+        {"start_time": "09:00", "end_time": "09:30", "available": true},
+        {"start_time": "09:30", "end_time": "10:00", "available": true},
+        {"start_time": "10:00", "end_time": "10:30", "available": true},
+        {"start_time": "10:30", "end_time": "11:00", "available": false},
+        {"start_time": "11:00", "end_time": "11:30", "available": true},
+        {"start_time": "13:00", "end_time": "13:30", "available": true},
+        {"start_time": "14:00", "end_time": "14:30", "available": false},
+        {"start_time": "15:00", "end_time": "15:30", "available": true}
+      ]
+    },
+    {
+      "property_id": 1062924,
+      "date": "2026-06-07",
+      "tour_type": "tour",
+      "slots": [
+        {"start_time": "09:00", "end_time": "09:30", "available": true},
+        {"start_time": "10:00", "end_time": "10:30", "available": true},
+        {"start_time": "10:30", "end_time": "11:00", "available": false},
+        {"start_time": "11:00", "end_time": "11:30", "available": true},
+        {"start_time": "13:00", "end_time": "13:30", "available": true},
+        {"start_time": "14:00", "end_time": "14:30", "available": true}
+      ]
+    },
+    {
+      "property_id": 1062924,
+      "date": "2026-06-08",
+      "tour_type": "tour",
+      "slots": [
+        {"start_time": "10:00", "end_time": "10:30", "available": true},
+        {"start_time": "11:00", "end_time": "11:30", "available": true},
+        {"start_time": "12:00", "end_time": "12:30", "available": false},
+        {"start_time": "13:00", "end_time": "13:30", "available": true},
+        {"start_time": "14:00", "end_time": "14:30", "available": true},
+        {"start_time": "15:00", "end_time": "15:30", "available": true}
+      ]
+    },
+    {
+      "property_id": 1062924,
+      "date": "2026-06-09",
+      "tour_type": "tour",
+      "slots": [
+        {"start_time": "09:00", "end_time": "09:30", "available": false},
+        {"start_time": "09:30", "end_time": "10:00", "available": true},
+        {"start_time": "10:00", "end_time": "10:30", "available": true},
+        {"start_time": "10:30", "end_time": "11:00", "available": true},
+        {"start_time": "11:00", "end_time": "11:30", "available": true},
+        {"start_time": "13:00", "end_time": "13:30", "available": false},
+        {"start_time": "14:00", "end_time": "14:30", "available": true},
+        {"start_time": "15:00", "end_time": "15:30", "available": true}
+      ]
+    },
+    {
+      "property_id": 1062924,
+      "date": "2026-06-10",
+      "tour_type": "tour",
+      "slots": [
+        {"start_time": "09:00", "end_time": "09:30", "available": true},
+        {"start_time": "09:30", "end_time": "10:00", "available": true},
+        {"start_time": "10:00", "end_time": "10:30", "available": false},
+        {"start_time": "10:30", "end_time": "11:00", "available": true},
+        {"start_time": "11:00", "end_time": "11:30", "available": true},
+        {"start_time": "13:00", "end_time": "13:30", "available": true},
+        {"start_time": "14:00", "end_time": "14:30", "available": true},
+        {"start_time": "15:00", "end_time": "15:30", "available": false}
+      ]
+    },
+    {
+      "property_id": 1062924,
+      "date": "2026-06-11",
+      "tour_type": "tour",
+      "slots": [
+        {"start_time": "09:00", "end_time": "09:30", "available": true},
+        {"start_time": "09:30", "end_time": "10:00", "available": false},
+        {"start_time": "10:00", "end_time": "10:30", "available": true},
+        {"start_time": "10:30", "end_time": "11:00", "available": true},
+        {"start_time": "13:00", "end_time": "13:30", "available": true},
+        {"start_time": "14:00", "end_time": "14:30", "available": false},
+        {"start_time": "15:00", "end_time": "15:30", "available": true},
+        {"start_time": "16:00", "end_time": "16:30", "available": true}
+      ]
+    },
+    {
+      "property_id": 1062924,
+      "date": "2026-06-12",
+      "tour_type": "tour",
+      "slots": [
+        {"start_time": "09:00", "end_time": "09:30", "available": true},
+        {"start_time": "09:30", "end_time": "10:00", "available": true},
+        {"start_time": "10:00", "end_time": "10:30", "available": true},
+        {"start_time": "10:30", "end_time": "11:00", "available": false},
+        {"start_time": "11:00", "end_time": "11:30", "available": true},
+        {"start_time": "13:00", "end_time": "13:30", "available": true},
+        {"start_time": "14:00", "end_time": "14:30", "available": true},
+        {"start_time": "15:00", "end_time": "15:30", "available": true}
+      ]
+    }
+  ]
+}
