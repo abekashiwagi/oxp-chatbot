@@ -10,7 +10,7 @@
   var MIN_TYPING_MS = 500;
   var HEALTH_INTERVAL_MS = 10000;
 
-  var GREETING = "Hi I'm ELI+, a virtual leasing agent for The Residences community. I can help with tours, pricing, availability, amenities and the application process. Would you like to book a tour to see the property?";
+  var GREETING = "Hi I'm ELI+, a virtual leasing agent for The Residences community. I can help with tours, pricing, availability, amenities and the application process. Would you like to book a tour?";
 
   var state = {
     open: false,
